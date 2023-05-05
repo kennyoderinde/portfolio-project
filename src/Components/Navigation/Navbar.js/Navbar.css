@@ -1,0 +1,19 @@
+
+
+.nav-links button::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(9, 177, 9);
+    left: 0;
+    bottom: -5px;
+    transition: transform 0.25s ease;
+    transform-origin: 0 100%;
+}
+
+.nav-links button:hover::before{
+
+    transform: scale(1, 1);
+}
+
