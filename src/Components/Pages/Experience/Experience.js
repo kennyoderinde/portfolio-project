@@ -51,10 +51,10 @@ const ExperiencePage = () => {
   };
 
   return (
-    <div id="experienceSection" className=' relative bg-[#041e3e] left-36 p-4 -mt-96 ' style={{width: "85%", height: '150%'}}>
-      <div className=" relative p-12 ml-32 -mt-2">
+    <div id="experienceSection" className=' relative bg-[#041e3e] left-36 p-4 -mt-40 ' style={{width: "85%", height: '100%'}}>
+      <div className=" relative p-12 ml-20 mt-20">
           <div className='flex '>
-            <p className=' text-2xl font-medium text-green-400 font-montserrat'>02. <span className=' text-4xl text-gray-300 font-semibold font-montserrat ml-3'>Where I have worked</span> </p>
+            <p className=' text-lg font-medium text-green-400 font-montserrat'>02. <span className=' text-2xl text-gray-300 font-semibold font-montserrat ml-3'>Where I have worked</span> </p>
             <div className=' ml-8 mt-6 border-t border-gray-500' style={{ width: '25rem' }}> </div>
           </div>
         <div className="container mx-auto py-8">
@@ -65,7 +65,7 @@ const ExperiencePage = () => {
               </div>
             </div>
             <div className="md:w-3/5 px-4">
-              <div className="bg-white shadow-md px-8 py-6">
+              <div className="bg-white shadow-md px-8 py-6" style={{ width: '50rem', height: '40rem'}}>
                 {renderSelectedOption()}
               </div>
             </div>

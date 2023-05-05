@@ -26,7 +26,7 @@ const Navbar = () => {
         <li>
           <button 
             onClick={handleNavClick}
-            className=' block mt-3 lg:inline-block text-gray-300 ml-1 font-roboto text-lg font-medium hover:text-green-500 mr-4 transition-all duration-200 cursor-pointer  '
+            className=' block mt-3 lg:inline-block text-gray-300 ml-1 font-roboto text-base font-medium hover:text-green-500 mr-4 transition-all duration-200 cursor-pointer  '
             style={{ }}
             >
             {content}
@@ -41,7 +41,7 @@ const Navbar = () => {
   
 
   return (
-    <header className=" sticky top-0 z-50 flex items-center justify-between flex-wrap bg-[#041e3e] p-8 shadow-md space-x-80 " style={{ justifyContent: "space-x-86"}} >
+    <header className=" sticky top-0 z-50 flex items-center justify-between flex-wrap bg-[#041e3e] p-4 shadow-md space-x-48 " style={{ justifyContent: "space-x-86"}} >
       <div className="  z-20 flex items-center space flex-shrink-0 text-white" style={{marginLeft:'4rem'}}>
         <span className="font-semibold text-xl tracking-tight">My App</span>
       </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
             navLinks.map(nav => renderNavLinks (nav))
           }
           
-          <a href='#' className=' top-0 relative px-5 p-3 h-12 flex items-center justify-between border-2 rounded-lg border-green-400 text-green-400 text-lg font-montserrat font-medium overflow-hidden'>
+          <a href='#' className=' top-0 relative text-base font-montserrat font-medium px-5 p-3 h-12 flex items-center justify-between border-2 rounded-lg border-green-400 text-green-400  overflow-hidden'>
             <span 
               className='absolute w-0 group-hover:w-16 h-16 transition-all ease-out duration-300  bg-gray-400'>
             </span>

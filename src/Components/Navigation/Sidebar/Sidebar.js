@@ -19,7 +19,7 @@ const Sidebar = () => {
                 key={index}
                 onClick={() => {window.location.pathname = item.link}}
                 >
-                   <div className="sidebar-icon w-12 h-11 text-3xl text-slate-400 ml-16 mt-4 hover:text-green-500 ">{item.icon}</div>
+                   <div className="sidebar-icon  text-xl text-slate-300 ml-16 mt-4 hover:text-green-500 ">{item.icon}</div>
                    
                 </div>
               )

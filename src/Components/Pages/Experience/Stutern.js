@@ -12,7 +12,7 @@ const Stutern = () => {
         
 
         <div className='flex mt-3'>
-            <span className=' text-xl p-1 mt-4 text-green-500'><AiOutlineTag /></span>
+            <span className=' text-base p-1 mt-4 text-green-500'><AiOutlineTag /></span>
             <p className='p-4 text-base font-montserrat font-medium '>
             Collaborated with other student designers and engineers on <span classname=" text-green-500 font-montserrat hover:text-green-500 font-medium text-base"><a href='https://citrone-redesign-group-a.vercel.app/' >Citrone </a></span> redesign project; a full fleshed scalable web application 
             to create new brands, design systems, and websites for organizations in and outside the community.
@@ -20,14 +20,14 @@ const Stutern = () => {
         </div>
 
         <div className='flex mt-3'>
-            <span className=' text-xl p-1 mt-4 text-green-500'><AiOutlineTag /></span>
+            <span className=' text-base p-1 mt-4 text-green-500'><AiOutlineTag /></span>
             <p className='p-4 text-base font-montserrat font-medium '>
             Built several mini projects and also developed expertise in coding web, scalable applications. Sample of basic such as the, My Personal Portfolio, Prime Number Multiplication Table, a Review and Sliders, Menu item list, Add Event page etc.             
             </p>
         </div>
 
         <div className='flex mt-3'>
-            <span className=' text-xl p-1 mt-4 text-green-500'><AiOutlineTag /></span>
+            <span className=' text-base p-1 mt-4 text-green-500'><AiOutlineTag /></span>
             <p className='p-4 text-base font-montserrat font-medium '>
             Developed ability to think through problems and solve algorithmic challenges . Showcase competencies in problem-solving, and resolving disagreement. Executed projects  with advanced React best practices.            </p>
         </div>                
