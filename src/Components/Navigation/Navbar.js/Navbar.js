@@ -43,21 +43,19 @@ const Navbar = () => {
   
 
   return (
-    <header className=" sticky top-0 z-50 flex items-center justify-between flex-wrap bg-[#020c1b] p-4 shadow-md space-x-80 " style={{ }} >
+    <header className=" sticky top-0 z-50 flex items-center justify-between flex-wrap bg-[#020c1b] p-4 shadow-md space-x-72 " style={{ }} >
       <div className="  z-20 flex items-center  text-white" style={{marginLeft:'6rem'}}>
         < GiIsland className=" text-green-500 font-semibold hover:text-white hover:bg-green-500 text-6xl p-1 hover:animate-bounce duration-300 delay-300 transition-all "/>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm flex flex-wrap lg:flex-grow space-x-6 ml-80">
+        <div className="text-sm flex flex-wrap lg:flex-grow justify-center space-x-6 ml-80">
 
           {
             navLinks.map(nav => renderNavLinks (nav))
           }
           
-          <a href='https://docs.google.com/document/d/1Xr3lNd3A1wIh-sQOtXfMMwt1YT4tAnfGWtzS8X30Iwk/edit' className=' top-0 relative text-base font-montserrat font-medium  p-2 flex items-center justify-between  hover:ml-8 hover:text-white hover:bg-green-500  border-2 border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
-            <span 
-              className='absolute w-0 group-hover:w-16 h-16 transition-all ease-out duration-300  bg-gray-400'>
-            </span>
+          <a href='https://docs.google.com/document/d/1Xr3lNd3A1wIh-sQOtXfMMwt1YT4tAnfGWtzS8X30Iwk/edit' className=' top-0 relative text-base font-montserrat font-medium  p-2 flex items-center justify-between  hover:ml-8 hover:text-white hover:bg-green-500  border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
+           
             <span className=' hover:text-white text-green-400'>Resume</span>
           </a>
         </div>
