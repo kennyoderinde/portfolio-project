@@ -5,7 +5,7 @@ const RightBar = () => {
 
     return (
         <React.Fragment>
-        <div className='z-10  fixed bg-[#041e3e] top-0' style={{width: "7rem", height : '110vh', left: "93%"}}>
+        <div className='z-10  fixed bg-[#020c1b] top-0' style={{width: "7rem", height : '110vh', left: "93%"}}>
           <div className='mt-52'></div>
             <div className="flex items-center flex-col p-2">
                 {Array.from("kennyoderyndeh@gmail.com").map((char, index) => (

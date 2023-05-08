@@ -8,7 +8,7 @@ import CitronePage from '../portfolioAssets/citrone-project-pic.PNG'
 
 const WorkPage = () => {
   return (
-    <div id="workSection" className=' relative bg-[#041e3e] left-36 p-4 -mt-80 ' style={{width: "85%", height: '100%'}}>
+    <div id="workSection" className=' relative bg-[#020c1b] left-36 p-4 -mt-80 ' style={{width: "85%", height: '100%'}}>
       <Citrone />
       <MyPortfolio />
       <HomezPage />

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
    extend:{
       color: {
-        'bg' : '#041e3e',
+        'bg' : '#020c1b',
         'bgs' : '#072d5b',
         'light-gray' : '#F8727A',
         'dove' : '#a8b2d1',

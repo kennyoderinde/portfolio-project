@@ -10,31 +10,31 @@ const sidebarData_ = [
         id:1,
         icon: < GithubIcons.AiFillGithub />,
         title: 'Light Mode',
-        link: '/home'
+        link: 'https://github.com/kennyoderinde'
     },
     {
         id:2,
         icon: <  LinkedInIcons.AiFillLinkedin />,
         title: 'Help',
-        link: '/help'
+        link: 'https://www.linkedin.com/in/kehinde-oderinde-9ab81b16a/'
     },
     {
         id:3,
         icon: <MediumIcons.SiMedium />,
         title: 'Logout',
-        link: '/logout'
+        link: 'ttps://medium.com/@kennyoderyndeh'
     },
     {
         id:4,
         icon: <TwitterIcons.AiFillTwitterCircle />,
         title: 'Logout',
-        link: '/logout'
+        link: 'https://twitter.com/OderindeKehin16'
     },
     {
         id:5,
         icon: <InstagramIcons.AiFillInstagram />,
         title: 'Logout',
-        link: '/logout'
+        link: 'https://www.instagram.com/kordatech1/'
     },
 
 ]

@@ -46,12 +46,12 @@ const ExperiencePage = () => {
       case "Eelive":
         return <Eelive />;
       default:
-        return null;
+        return <Stutern />;
     }
   };
 
   return (
-    <div id="experienceSection" className=' relative bg-[#041e3e] left-36 p-4 -mt-40 ' style={{width: "85%", height: '100%'}}>
+    <div id="experienceSection" className=' relative bg-[#020c1b] left-36 p-4 -mt-40 ' style={{width: "85%", height: '100%'}}>
       <div className=" relative p-12 ml-20 mt-20">
           <div className='flex '>
             <p className=' text-lg font-medium text-green-400 font-montserrat'>02. <span className=' text-2xl text-gray-300 font-semibold font-montserrat ml-3'>Where I have worked</span> </p>
