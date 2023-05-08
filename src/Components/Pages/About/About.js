@@ -40,7 +40,7 @@ const About = () => {
                   I also recently take time to guide and tutor newbies on the rudiments and also how to get started in tech. I also take to expose them to the basics skills HTML, CSS, Wordpress, they need to build a simple personalized web app.
                   </p>
                 </div>
-                <div className='-mt-10'  style={{ width: '56%', height: '8%'}}>
+                <div className='-mt-14'  style={{ width: '56%', height: '8%'}}>
                   <p className='  font-montserrat font-normal text-base text-gray-400 whitespace-normal tracking-wide	'>
                   Here are a few technologies I’ve been working with recently:
                   </p>
@@ -48,21 +48,21 @@ const About = () => {
               </div>
             </div>
           
-            <div className='  relative top-48 ml-16 right-56 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg' style={{ width: '38rem', height: '22rem'}}>
+            <div className='  relative top-48 ml-16 right-56 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg' style={{ width: '38rem', height: '18rem'}}>
               <img src= {MyPics} alt= '' className='  hover:bg-emerald-300 hover:ml-8 hover:mt-8 transition-all duration-1000 delay-500 rounded-lg   ' />
             </div>
          </div>
 
-          <div className=' w-96 h-96 -mt-4 ml-24'>
+          <div className=' w-96 h-96 -mt-4 ml-20'>
             <ul className=' flex flex-wrap' style={{width: '30rem'}}>
               {
                 devTools.map((item, index) => {
                   return (
                     <li 
                       className=''
-                      id={window.location.pathname === item.link ? "active" : ""}
+                      id={window.location.href === item.link ? "active" : ""}
                       key={index}
-                      onClick={() => {window.location.pathname = item.link}}
+                      onClick={() => {window.location.href = item.link}}
                     >
                       <div className=" w-60 h-10 flex space-x-4  p-1 ">
                         <div className=' sidebar-icon text-base text-green-400 ml-16 '>{item.icon}</div>
