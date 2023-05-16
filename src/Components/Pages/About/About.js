@@ -49,7 +49,7 @@ const About = () => {
             </div>
           
             <div className='  relative top-48 ml-16 right-56 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg' style={{ width: '38rem', height: '18rem'}}>
-              <img src= {MyPics} alt= '' className='  hover:bg-emerald-300 hover:ml-8 hover:mt-8 transition-all duration-1000 delay-500 rounded-lg   ' />
+              <img src= {MyPics} alt= '' className='  hover:bg-green-500 hover:ml-8 hover:mt-8 transition-all duration-1000 delay-500 rounded-lg   ' />
             </div>
          </div>
 

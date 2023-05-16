@@ -2,6 +2,7 @@ import React from 'react'
 import Citrone from '../Work/Citrone'
 import MyPortfolio from '../Work/MyPortfolio'
 import HomezPage from '../Work/Homez'
+import MiniProjects from './MiniProjects/MiniProjects'
 
 import CitronePage from '../portfolioAssets/citrone-project-pic.PNG'
 
@@ -12,6 +13,7 @@ const WorkPage = () => {
       <Citrone />
       <MyPortfolio />
       <HomezPage />
+      <MiniProjects />
     </div>
   )
 }

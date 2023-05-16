@@ -10,7 +10,7 @@ module.exports = {
         'dove' : '#a8b2d1',
         'tomato' : '#8892b0',
         'green' : "#64ffda",
-        'blue' : "#57cbff",
+        'blue' : "#112240",
         'pink ' : "#f57dff"
         
       

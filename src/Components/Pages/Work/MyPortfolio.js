@@ -24,6 +24,7 @@ const MyPortfolioPage = () => {
                 <div className='flex mt-3 space-x-8'>
                     <span className=' text-2xl font-medium hover:text-green-500  text-gray-200'>< GithubIcons.FiGithub /></span>
                     <span className=' text-2xl font-medium hover:text-green-500  text-gray-200'>< CheckoutIcon.FiCheckSquare /></span>
+                    
 
                     
                 </div>

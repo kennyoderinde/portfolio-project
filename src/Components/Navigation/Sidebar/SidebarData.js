@@ -22,7 +22,7 @@ const sidebarData_ = [
         id:3,
         icon: <MediumIcons.SiMedium />,
         title: 'Logout',
-        link: 'ttps://medium.com/@kennyoderyndeh'
+        link: 'https://medium.com/@kennyoderyndeh'
     },
     {
         id:4,
