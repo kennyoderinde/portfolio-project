@@ -7,9 +7,9 @@ const Sidebar = () => {
 
     return (
         <React.Fragment>
-        <div className='z-10 w-36  bg-[#020c1b] fixed top-0' style={{ height : '110vh'}}>
+        <div className=' z-30 sm:z-30 w-16 sm:w-32  bg-[#020c1b] fixed top-0' style={{ height : '300vh'}}>
           <div className='mt-60'></div>
-          <div className='sidebar-list'>
+          <div className='  mt-96 ml-0 sm:grid sm:ml-4 sm:mt-80 ' >
           {
             sidebarData_.map((item, index) => {
               return (
@@ -19,14 +19,13 @@ const Sidebar = () => {
                 key={index}
                 onClick={() => {window.location.href = item.link}}
                 >
-                   <div className="sidebar-icon  text-xl text-slate-300 ml-16 mt-4 hover:text-green-500 ">{item.icon}</div>
+                   <div className="sidebar-icon  text-xl text-slate-300 ml-4 sm:ml-12 mt-6 sm:mt-8 hover:text-green-500 ">{item.icon}</div>
                    
                 </div>
               )
             })
           }
           </div>
-          <div className=' h-48 border-l border-slate-400 flex mt-6' style={{ marginLeft: '70px'}}></div>             
           </div>
         </React.Fragment>
       )

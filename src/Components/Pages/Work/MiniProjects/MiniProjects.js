@@ -10,7 +10,7 @@ const MiniProjects = () => {
         <div className=' '  >
           <div className='grid'>
             <p className=' flex items-center justify-center text-gray-200 font-montserrat font-semibold text-2xl whitespace-nowrap mt-20'>Other Noteworthy Projects</p>
-            <span className= 'flex items-center justify-center text-green-500 font-roboto font-normal text-base whitespace-nowrap leading-10'>view the archive</span>
+            <span className= 'flex flex-wrap items-center justify-center text-green-500 font-roboto font-normal text-base whitespace-nowrap leading-10'>view the archive</span>
           </div>
           <div className='' >
           {

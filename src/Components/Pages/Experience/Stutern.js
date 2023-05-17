@@ -4,10 +4,11 @@ import {AiOutlineTag} from "react-icons/ai";
 
 const Stutern = () => {
   return (
-    <div className=''>
-        <div className=''>
-            <p className=' text-xl text-gray-400 font-semibold font-montserrat'>Frontend Developer Trainee <span className=' text-green-500 text-xl font-montserrat'>@ Stutern</span></p>
-            <p className=' font-roboto font-normal text-base text-gray-500'>May 2022 - May-2023</p>
+    <div className='  sm:z-30 ml-8 sm:ml-0'>
+        <div className=' flex flex-col'>
+            <p className=' text-base sm:text-xl sm:text-gray-500 font-semibold font-montserrat'>Frontend Developer Trainee </p>
+            <span className=' text-green-500 text-xl font-montserrat'>@ Stutern</span>
+            <p className=' font-roboto font-normal sm:text-base sm:text-gray-500'>May 2022 - May-2023</p>
         </div>
         
 

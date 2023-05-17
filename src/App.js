@@ -12,7 +12,7 @@ import Experience from './Components/Pages/Experience/Experience';
 
 function App() {
   return (
-    <div className='relative'>
+    <div className='relative '>
     <Navbar /> 
     <Sidebar />
       <section name="/" className="min-h-screen flex items-center">
@@ -30,7 +30,6 @@ function App() {
       <section name="thought" className="min-h-screen flex items-center">
         <Thought />
       </section>
-      <RightBar />
     </div>
   );
 }

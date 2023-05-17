@@ -21,6 +21,27 @@ module.exports = {
         'montserrat': ['Montserrat', 'sans-serif'],
         'raleway' : ['Raleway', 'sans-serif']
       },
+
+
+      width: {
+        '80': '113vw',
+        '60': '58%',
+        '66': '70%',
+        '30' : '30rem',
+        '38' : '38rem',
+
+        
+      },
+
+      height: {
+        '18' : '18rem',
+
+      },
+
+      top: {
+        '120': '30rem', // Set the new value for top-128
+        // Add more values as needed
+      },
     },
   
     

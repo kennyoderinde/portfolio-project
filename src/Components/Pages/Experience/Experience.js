@@ -30,7 +30,7 @@ const ExperiencePage = () => {
         >
           {option.name}
           {selectedOption === option.name && (
-            <span className="inline-block w-1 h-10 bg-green-500 ml-6"></span>
+            <span className="sm:inline-block w-1 sm:w-1 h-10 bg-green-500 ml-6"></span>
           )}
         </a>
       </li>
@@ -51,21 +51,22 @@ const ExperiencePage = () => {
   };
 
   return (
-    <div id="experienceSection" className=' relative bg-[#020c1b] left-36 p-4 -mt-40 ' style={{width: "85%", height: '100%'}}>
-      <div className=" relative p-12 ml-20 mt-20">
-          <div className='flex '>
-            <p className=' text-lg font-medium text-green-400 font-montserrat'>02. <span className=' text-2xl text-gray-300 font-semibold font-montserrat ml-3'>Where I have worked</span> </p>
+    <div id="experienceSection" className=' sm:z-30 relative sm:relative bg-[#020c1b] left-14 sm:left-20 sm:p-4 -top-8 sm:-top-40 w-full sm:w-full ' style={{ height: '150%'}}>
+      <div className=" relative  sm:p-12 -left-5 sm:left-20 top-10 sm:top-20">
+          <div className='flex sm:mt-0 mt-20 '>
+            <p className=' text-base sm:text-lg font-medium text-green-400 font-montserrat'>02.  </p>
+            <span className=' whitespace-nowrap text-lg sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3'>Where I have worked</span>
             <div className=' ml-8 mt-6 border-t border-gray-500' style={{ width: '25rem' }}> </div>
           </div>
-        <div className="container mx-auto py-8">
-          <div className="flex flex-wrap -mx-4">
+        <div className="container mx-auto sm:py-8">
+          <div className="sm:flex sm:flex-wrap sm:-mx-4">
             <div className="md:w-1/6 ">
               <div className="bg-none hover:text-green-500 shadow-md text-base">
-                <ul>{renderSettingsOptions()}</ul>
+                <ul className="sm:flex sm:flex-col -mt-3 flex">{renderSettingsOptions()}</ul>
               </div>
             </div>
-            <div className="md:w-3/5 px-4">
-              <div className="bg-white shadow-md px-8 py-6" style={{ width: '50rem', height: '40rem'}}>
+            <div className="sm:w-3/5 sm:px-4 px-1">
+              <div className=" z-40 text-gray-400 sm:text-black sm:bg-white opacity-80 sm:shadow-md  sm:px-8 sm:py-6 sm:-ml-20 w-0.5rem sm:w-0.5rem h-0.28rem " style={{ }}>
                 {renderSelectedOption()}
               </div>
             </div>
