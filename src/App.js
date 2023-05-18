@@ -12,7 +12,7 @@ import Experience from './Components/Pages/Experience/Experience';
 
 function App() {
   return (
-    <div className='relative '>
+    <div className='relative bg-[#020c1b] flex flex-col min-h-screen '>
     <Navbar /> 
     <Sidebar />
       <section name="/" className="min-h-screen flex items-center">

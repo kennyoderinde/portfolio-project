@@ -9,7 +9,7 @@ import * as CheckoutIcon from "react-icons/fi";
 const MyPortfolioPage = () => {
   return (
     <div className=''>
-        <div className=" relative p-12 ml-6 -mt-2">
+        <div className=" relative  sm:relative sm:p-12 -left-20 sm:left-6 top-20 sm:-top-2">
           
           <div className='flex items-center justify-center mt-8'>
             <img src={PortfolioPic} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
@@ -22,8 +22,8 @@ const MyPortfolioPage = () => {
 
 
                 <div className='flex items-center justify-center -mt-2 space-x-8  sm:mt-0'>
-                    <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'>< GithubIcons.FiGithub /></span>
-                    <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'>< CheckoutIcon.FiCheckSquare /></span>  
+                    <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'><a href= 'https://github.com/kennyoderinde/portfolio-project'  target="_blank">< GithubIcons.FiGithub /></a></span>
+                    <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'><a href= 'https://portfolio-project-h8i9-kennyoderinde.vercel.app/'  target="_blank">< CheckoutIcon.FiCheckSquare /></a></span>  
                 </div>
 
             </div>

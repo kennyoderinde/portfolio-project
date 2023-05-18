@@ -7,9 +7,12 @@ import MyPics from '../portfolioAssets/my- pics1.png'
 const About = () => {
   const [ devTools, setDevTool] = React.useState(technologies)
 
+
+  // flex-auto bg-[#020c1b] z-20 ml-10  sm:ml-20 sm:-mt-20  p-4
+
   return (
     <React.Fragment>
-        <div id="aboutSection" className=' z-20 relative flex-1 bg-[#020c1b] left-12 sm:left-12 p-4 -mt-10 w-full sm:w-full  ' style={{ height: '150%'}}>
+        <div id="aboutSection" className=' z-20 relative flex-auto bg-[#020c1b] left-28 sm:left-12 p-4 -mt-16 w-80 sm:w-full ' style={{ height: '150%'}}>
           <div className='flex -mt-32 -ml-20 sm:-mt-10 sm:ml-10  -space-x-60 flex-col sm:flex sm:flex-row'>
             
             <div className='p-12 ml-14 mt-20 '>
@@ -46,7 +49,7 @@ const About = () => {
               </div>
             </div>
           
-            <div className="z-40 sm:relative mt-96 sm:-top-48 sm:ml-16 right-56 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg sm:w-38 sm:h-18">
+            <div className="z-40 sm:relative mt-96 sm:-top-48 sm:ml-16 sm:right-56 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg sm:w-38 sm:h-18">
               <img src={MyPics} alt="" className="absolute hover:bg-green-500 hover:ml-8 hover:mt-8 top-96 left-40 sm:top-0 sm:left-0 transition-all duration-1000 delay-500 rounded-lg h-auto w-28 sm:w-full max-w-xs sm:max-w-full sm:h-auto" style={{  }} />
             </div>
 
@@ -87,4 +90,3 @@ const About = () => {
    
         
    
-
