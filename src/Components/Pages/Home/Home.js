@@ -7,13 +7,13 @@ import { AiOutlineRight } from "react-icons/ai";
 const Home = () => {
   return (
     <React.Fragment>                        
-      <div id="homeSection" className=' flex-auto bg-[#020c1b] z-20 ml-12  sm:ml-20 sm:-mt-20  p-4 sm:w-full ' style={{ height: '150%'}}>
-        <div className=' ml-12 sm:ml-20 mt-28 sm:mt-28  px-4 md:flex-row'>
+      <div id="homeSection" className=' relative sm:relative  flex-auto bg-[#020c1b] z-20 left-28  sm:-top-20 p-12 sm:p-20 sm:w-full ' style={{ height: '150%'}}>
+        <div className=' relative -ml-2 sm:ml-20 mt-28 sm:mt-28  px-4 md:flex-row'>
           <p className=' mr-10 font-roboto font-medium text-base sm:text-lg text-green-400'>Hi, my name is</p>
           <h1 className=' mr-10 font-montserrat font-bold whitespace-nowrap text-3xl sm:text-6xl text-slate-300 mt-4 sm:mt-10'>Kehinde Oderinde.</h1>
           <h1 className=' mr-10 font-montserrat font-bold text-3xl sm:text-6xl text-slate-400 mt-4 sm:mt-8'>I build things for the web.</h1>
 
-          <p className=' mt-4 sm:mt-12 sm:pr-32 font-montserrat font-medium text-xs sm:text-base text-gray-400 whitespace-normal tracking-wider' style={{ width: '75%', height: '25%'}}>
+          <p className=' mt-4 sm:mt-12 sm:pr-32 font-montserrat font-medium text-xs sm:text-base text-gray-400 whitespace-normal tracking-wider' style={{ width: '85%', height: '25%'}}>
             I’m a software developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, learners centered solution,  
           <a href='https://citrone-redesign-group-a.vercel.app/dashboard#' className=' text-xs sm:text-base text-green-400 font-montserrat ml-2'>Citrone.</a>
           </p>

@@ -51,7 +51,7 @@ const ExperiencePage = () => {
   };
 
   return (
-    <div id="experienceSection" className=' sm:z-30 relative sm:relative bg-[#020c1b] left-44 sm:left-20 sm:p-4 -top-8 sm:-top-40 w-full sm:w-full ' style={{ height: '150%'}}>
+    <div id="experienceSection" className=' sm:z-30 relative sm:relative bg-[#020c1b] left-44 sm:left-20 sm:p-4 -top-40 sm:-top-60 w-full sm:w-full ' style={{ height: '150%'}}>
       <div className=" relative  sm:p-12 -left-20 sm:left-20 top-10 sm:top-20">
           <div className='flex sm:mt-0 mt-20 '>
             <p className=' text-base sm:text-lg font-medium text-green-400 font-montserrat'>02.  </p>
@@ -65,7 +65,7 @@ const ExperiencePage = () => {
                 <ul className="sm:flex sm:flex-col -mt-3 flex">{renderSettingsOptions()}</ul>
               </div>
             </div>
-            <div className="sm:w-3/5 sm:px-4 px-1">
+            <div className="sm:w-3/5 w-screen p-4 sm:px-4 px-1">
               <div className=" z-40 text-gray-400 sm:text-black sm:bg-white opacity-80 sm:shadow-md  sm:px-8 sm:py-6 sm:-ml-20 w-0.5rem sm:w-0.5rem h-0.28rem " style={{ }}>
                 {renderSelectedOption()}
               </div>

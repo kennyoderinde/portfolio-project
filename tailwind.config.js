@@ -27,9 +27,9 @@ module.exports = {
         '80': '120vw',
         '100' : '120vw',
         '60': '58%',
-        '66': '70%',
+        '66': '60%',
         '30' : '30rem',
-        '38' : '38rem',
+        '18' : '18rem',
       },
 
       height: {
@@ -38,6 +38,11 @@ module.exports = {
       },
 
       mt: {
+        '120': '30rem', // Set the new value for top-128
+        // Add more values as needed
+      },
+
+      top: {
         '120': '30rem', // Set the new value for top-128
         // Add more values as needed
       },

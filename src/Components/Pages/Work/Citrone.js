@@ -15,12 +15,12 @@ const CitronePage = () => {
             <span className=' whitespace-nowrap text-lg sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3'>Some Things I’ve Built</span>
             <div className=' ml-8 mt-6 border-t border-gray-500' style={{ width: '25rem',  }}> </div>
           </div>
-          <div className='flex items-center justify-center mt-8'>
+          <div className='flex sm:-ml-36 sm:w-full sm:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
             <img src={CitronePic} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
           </div>
-            <div className=' h-40 flex flex-col justify-items-center'>
+            <div className=' h-40 sm:-ml-60 sm:flex sm:flex-col sm:justify-center items-center flex flex-col justify-center items-center'>
               <div className='flex items-center justify-center space-x-6'>
-                <h2 className=' whitespace-nowrap font-roboto text-lg sm:text-3xl  text-gray-400 font-bold  mt-6'>Citrone Redesign </h2>
+                <h2 className=' whitespace-nowrap font-roboto text-lg sm:text-3xl text-gray-400 font-bold  mt-6'>Citrone Redesign</h2>
                 <p className=' whitespace-nowrap mt-6 font-roboto text-xs sm:text-base text-green-500 font-medium'>Featured Project</p>
               </div>
               <p className='flex justify-center items-center font-roboto font-medium text-xs sm:text-lg text-green-500 p-4 sm:px-25 -mt-2 sm:mt-0 shadow-lg'>A learning experience web application where educators can engage their learners</p>
@@ -32,8 +32,8 @@ const CitronePage = () => {
                 </div>
 
             </div>
+        </div>
       </div>
-    </div>
   )
 }
 

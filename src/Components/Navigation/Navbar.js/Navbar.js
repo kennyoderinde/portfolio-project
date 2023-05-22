@@ -49,7 +49,7 @@ const Navbar = () => {
   
 
   return (
-    <header className=" fixed top-0 z-50 flex items-center justify-between flex-wrap backdrop-blur-lg  bg-[#020c1b] p-4 sm:p-4 shadow-md sm:space-x-36 w-80 sm:w-full " style={{ }} >
+    <header className=" fixed top-0 z-50 flex items-center justify-between flex-wrap backdrop-blur-lg  bg-[#020c1b] p-4 sm:p-4 shadow-md sm:space-x-36 w-full sm:w-full " style={{ }} >
       <div className="  z-20 flex items-center ml-2 sm:ml-14 text-white" style={{}}>
         < GiIsland className=" text-green-500 font-semibold hover:text-white hover:bg-green-500  text-6xl p-2 sm:p-1 hover:animate-bounce duration-300 delay-300 transition-all "/>
       </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
         {/* menu icon */}
           <div 
             onClick={() => setNav (!nav)}
-            className=' cursor-pointer pr-4 z-10 md:hidden'>
+            className=' cursor-pointer mr-6 pl-10 z-10 md:hidden'>
               { nav ?  <FaTimes className='text-white' size={25}/> : <FaAlignJustify className=' text-white' size={25} />}
             
           </div> 

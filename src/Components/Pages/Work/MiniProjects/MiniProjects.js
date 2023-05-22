@@ -121,21 +121,22 @@ const handleClick = (url) => {
 const ProjectList = () => {
   
 
+  // <div className=' h-40 sm:-ml-60 sm:flex sm:flex-col sm:justify-center items-center flex flex-col justify-center items-center'>
 
 
 
     return (
         <React.Fragment>
         <div className=' '  >
-          <div className='grid'>
-            <p className=' flex items-center justify-center text-gray-200 font-montserrat font-semibold text-2xl whitespace-nowrap mt-20'>Other Noteworthy Projects</p>
-            <span className= 'flex flex-wrap items-center justify-center text-green-500 font-roboto font-normal text-base whitespace-nowrap leading-10'>view the archive</span>
+          <div className='grid -ml-32 sm:-ml-60'>
+            <p className=' flex items-center justify-center text-gray-200 font-montserrat font-semibold sm:text-2xl text-xl whitespace-nowrap mt-20'>Other Noteworthy Projects</p>
+            <span className= 'flex flex-wrap items-center justify-center text-green-500 font-roboto font-normal sm:text-base whitespace-nowrap leading-10'>view the archive</span>
           </div>
-          <div className=''>
+          <div className=' sm:w-full sm:items-center sm:flex sm:flex-wrap -ml-12 sm:-mt-20 sm:p-20 sm:mr-20'>
           {projectsData.map((project) => (
             
             <div key={project.id}
-            className=' bg-[#131e31] inline-block mr-6 mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4'
+            className=' bg-gray-700 inline-block mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4'
             style={{ width: '19rem', height: '19rem'}}
             >
               

@@ -12,10 +12,8 @@ const About = () => {
 
   return (
     <React.Fragment>
-        <div id="aboutSection" className=' z-20 relative flex-auto bg-[#020c1b] left-16 sm:left-12 p-4 -mt-16 w-80 sm:w-full ' style={{ height: '150%'}}>
-          <div className='flex -mt-32 -ml-20 sm:-mt-10 sm:ml-10  -space-x-60 flex-col sm:flex sm:flex-row'>
-            
-            <div className='p-12 ml-14 mt-20 '>
+        <div id="aboutSection" className=' z-20 relative flex-auto bg-[#020c1b] left-28 sm:left-12 p-10 sm:p-4 -top-40 w-80 sm:w-full ' style={{ height: '150%'}}>
+            <div className=' relative p-12 -ml-14 sm:ml-28 mt-20 '>
               <div className=' flex sm:mt-0 mt-20 '>
                 <p className=' text-base sm:text-xl font-medium text-green-400 font-montserrat'>01.  </p>
                 <span className=' text-lg sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3 whitespace-nowrap'>About Me</span>
@@ -49,34 +47,36 @@ const About = () => {
               </div>
             </div>
           
-            <div className="z-40 sm:relative mt-96 sm:-top-48 sm:ml-16 sm:right-56 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg sm:w-38 sm:h-18">
-              <img src={MyPics} alt="" className="absolute hover:bg-green-500 hover:ml-8 hover:mt-8 top-96 left-40 sm:top-0 sm:left-0 transition-all duration-1000 delay-500 rounded-lg h-auto w-28 sm:w-full max-w-xs sm:max-w-full sm:h-auto" style={{  }} />
+
+          <div className='flex items-center sm:ml-36 sm:space-x-20 space-x-20 -mt-4 -ml-32 flex-col sm:flex sm:flex-row '>
+            <div className=' sm:w-96 sm:h-96 -mt-0 -ml-52 sm:mt-0 sm:-ml-14'>
+              <ul className=' -space-y-3 sm:space-y-1 sm:flex sm:flex-wrap  sm:w-30' style={{}}>
+                {
+                  devTools.map((item, index) => {
+                    return (
+                      <li 
+                        className=''
+                        id={window.location.href === item.link ? "active" : ""}
+                        key={index}
+                        onClick={() => {window.location.href = item.link}}
+                      >
+                        <div className=" w-60 h-10 flex sm:flex space-x-2  p-1 ">
+                          <div className=' text-xs sm:text-base text-green-400 ml-16 '>{item.icon}</div>
+                          <p className=' font-roboto font-normal text-xs sm:text-base text-gray-400 whitespace-nowrap -mt-1 sm:-mt-2 hover:text-green-500   '>{item.title}</p>
+                        </div>
+                        
+                      </li>
+                    )
+                  })
+                }
+              </ul>
+            </div> 
+
+            <div className="z-40 sm:relative absolute -left-2 top-80 sm:-top-96 sm:left-96 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg sm:w-18 sm:h-18">
+                <img src={MyPics} alt="" className="absolute hover:bg-green-500 hover:ml-8 hover:mt-8 top-96 left-40 sm:top-0 sm:left-0 transition-all duration-1000 delay-500 rounded-lg h-auto w-28 sm:w-full max-w-xs sm:max-w-full sm:h-auto" style={{  }} />
             </div>
 
-         </div>
-
-          <div className=' sm:w-96 sm:h-96 -mt-96 -ml-10 sm:-mt-14 sm:ml-20'>
-            <ul className=' -space-y-3 sm:space-y-1 sm:flex sm:flex-wrap  sm:w-30' style={{}}>
-              {
-                devTools.map((item, index) => {
-                  return (
-                    <li 
-                      className=''
-                      id={window.location.href === item.link ? "active" : ""}
-                      key={index}
-                      onClick={() => {window.location.href = item.link}}
-                    >
-                      <div className=" w-60 h-10 flex sm:flex space-x-2  p-1 ">
-                        <div className=' text-xm  sm:text-base text-green-400 ml-16 '>{item.icon}</div>
-                        <p className=' font-roboto font-normal text-xs sm:text-base text-gray-400 whitespace-nowrap -mt-1 sm:-mt-2 hover:text-green-500   '>{item.title}</p>
-                      </div>
-                      
-                    </li>
-                  )
-                })
-              }
-            </ul>
-          </div>       
+          </div>      
         </div>
         
    
