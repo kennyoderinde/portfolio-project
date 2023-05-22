@@ -12,8 +12,8 @@ const About = () => {
 
   return (
     <React.Fragment>
-        <div id="aboutSection" className=' z-20 relative flex-auto bg-[#020c1b] left-38 sm:left-12 p-10 sm:p-4 -top-40 w-80 sm:w-full ' style={{ height: '150%'}}>
-            <div className=' relative p-12 -ml-14 sm:ml-28 mt-20 '>
+        <div id="aboutSection" className=' z-20 relative flex-auto bg-[#020c1b] left-38 sm:left-12 p-10 sm:p-4 sm:-top-40 -top-44 w-80 sm:w-full ' style={{ height: '150%'}}>
+            <div className=' relative p-12 -ml-28 sm:ml-28 mt-0 '>
               <div className=' flex sm:mt-0 mt-20 '>
                 <p className=' text-base sm:text-xl font-medium text-green-400 font-montserrat'>01.  </p>
                 <span className=' text-lg sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3 whitespace-nowrap'>About Me</span>
@@ -48,7 +48,7 @@ const About = () => {
             </div>
           
 
-          <div className='flex items-center sm:ml-36 sm:space-x-14 space-x-20 -mt-4 -ml-32 flex-col sm:flex sm:flex-row '>
+          <div className='flex items-center sm:ml-36 sm:space-x-14 space-x-20 -mt-4 -ml-52 flex-col sm:flex sm:flex-row '>
             <div className=' sm:w-96 sm:h-96 -mt-0 -ml-52 sm:mt-0 sm:-ml-14'>
               <ul className=' -space-y-3 sm:space-y-1 sm:flex sm:flex-wrap  sm:w-30' style={{}}>
                 {
@@ -72,7 +72,7 @@ const About = () => {
               </ul>
             </div> 
 
-            <div className="z-40 sm:relative absolute -left-2 top-80 sm:-top-96 sm:left-96 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg sm:w-18 sm:h-18">
+            <div className="z-40 sm:relative absolute -left-10 top-64 sm:-top-96 sm:left-96 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg sm:w-18 sm:h-18">
                 <img src={MyPics} alt="" className="absolute hover:bg-green-500 hover:ml-8 hover:mt-8 top-96 left-40 sm:top-0 sm:left-0 transition-all duration-1000 delay-500 rounded-lg h-auto w-28 sm:w-full max-w-xs sm:max-w-full sm:h-auto" style={{  }} />
             </div>
 
