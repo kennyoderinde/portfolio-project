@@ -37,14 +37,8 @@ module.exports = {
 
       },
 
-      mt: {
-        '120': '30rem', // Set the new value for top-128
-        // Add more values as needed
-      },
-
-      top: {
-        '120': '30rem', // Set the new value for top-128
-        // Add more values as needed
+      spacing: {
+        '38': '9.5rem', // Replace with your desired value
       },
     },
   

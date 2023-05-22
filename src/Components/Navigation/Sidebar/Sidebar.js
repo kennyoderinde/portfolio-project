@@ -74,14 +74,14 @@ const Sidebar = () => {
 
     return (
         <React.Fragment>
-        <div className=' z-30 sm:z-30 w-16 sm:w-32  bg-[#020c1b] fixed sm:fixed left-0 top-0' style={{ height : '300vh'}}>
+        <div className=' z-30 sm:z-30 w-16 sm:w-32 fixed sm:fixed left-0 top-0' style={{ height : '300vh'}}>
           <div className='mt-60'></div>
           <ul className='  ' >
           {
             links.map(({ id, child, href, style}) => {
               return (
                 <li 
-                  className={' hidden lg:flex flex-col group  justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-600 ' + " " + style}
+                  className={' hidden lg:flex flex-col group  justify-between items-center w-40 h-12 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-600 ' + " " + style}
                   key={id}
                 >
                    <a href={href} 
