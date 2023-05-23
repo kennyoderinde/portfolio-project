@@ -117,12 +117,12 @@ const ProjectList = () => {
 
     return (
         <React.Fragment>
-        <div className=' '  >
+        <div className='sm:mt-10 '  >
           <div className='grid -ml-32 sm:-ml-60'>
             <p className=' flex items-center justify-center text-gray-200 font-montserrat font-semibold sm:text-2xl text-xl whitespace-nowrap mt-20'>Other Noteworthy Projects</p>
             <span className= 'flex flex-wrap items-center justify-center text-green-500 font-roboto font-normal sm:text-base whitespace-nowrap leading-10'>view the archive</span>
           </div>
-          <div className=' sm:w-full sm:items-center sm:flex sm:flex-wrap -ml-12 sm:-mt-20 sm:p-20 sm:mr-20'>
+          <div className=' sm:w-full sm:items-center sm:justify-center sm:flex sm:flex-wrap -ml-12 sm:-mt-20 sm:p-20 sm:mr-20'>
           {projectsData.map((project) => (
             
             <div key={project.id}

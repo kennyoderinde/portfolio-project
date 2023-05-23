@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Stutern from './Stutern'
 import Reacthq from './Reacthq'
 import Eelive from './Eelive'
+// import './Experience.css'
 
 const ExperiencePage = () => {
   const [selectedOption, setSelectedOption] = useState("");
@@ -20,6 +21,7 @@ const ExperiencePage = () => {
     return settingsOptions.map((option) => (
       <li key={option.id}>
         <a
+          id='option-style'
           href="#"
           onClick={() => handleOptionClick(option.name)}
           className={` font-roboto flex items-center px-4 py-4 ${
@@ -51,7 +53,7 @@ const ExperiencePage = () => {
   };
 // relative sm:relative  flex-auto bg-[#020c1b] z-20 left-28 sm:-top-20 p-12 sm:p-20 sm:w-full
   return (
-    <div id="experienceSection" className=' sm:z-30 relative sm:relative flex-auto bg-[#020c1b] left-38 sm:left-20 sm:p-4 -top-52 sm:-top-60 w-80 sm:w-full ' style={{ height: '150%'}}>
+    <div id="experienceSection" className=' sm:z-30 relative sm:relative flex-auto bg-[#020c1b] left-38 sm:left-28 sm:p-4 -top-52 sm:-top-60 w-80 sm:w-full ' style={{ height: '150%'}}>
       <div className=" relative  sm:p-12 -left-20 sm:left-20 top-10 sm:top-20">
           <div className='flex sm:mt-0 mt-20 '>
             <p className=' text-base sm:text-lg font-medium text-green-400 font-montserrat'>02.  </p>

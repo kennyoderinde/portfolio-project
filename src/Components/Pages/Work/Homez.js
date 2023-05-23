@@ -9,7 +9,7 @@ import * as CheckoutIcon from "react-icons/fi";
 const MyPortfolioPage = () => {
   return (
     <div className=''>
-        <div className=" relative  sm:relative sm:p-12 -left-20 sm:left-6 top-20 sm:-top-2">
+        <div className=" relative  sm:relative sm:p-12 -left-20 sm:left-6 top-20 sm:top-10">
           
         <div className='flex sm:-ml-36 sm:w-full sm:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
             <img src={HomezPic} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
