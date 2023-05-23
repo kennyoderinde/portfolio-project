@@ -28,83 +28,73 @@ const projectsData = [
   },
   {
     id: 3,
-    icon1: <FaShirtsinbulk onClick={() => handleClick('https://vercel.com/kennyoderinde/todo-list-project')} />,
+    icon1: <FaShirtsinbulk onClick={() => handleClick('https://todo-list-project-chi.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/todo-list-project')} />,
-    icon3: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/todo-list-project')} />,
+    icon3: <FiCheckSquare onClick={() => handleClick('https://todo-list-project-chi.vercel.app/')} />,
     title1: 'A To-do List App',
     title2: '',
     devtools: 'React, CSS, Git'
   },
   {
     id: 4,
-    icon1: <FaShirtsinbulk onClick={() => handleClick('https://vercel.com/kennyoderinde/calculator1')} />,
+    icon1: <FaShirtsinbulk onClick={() => handleClick('https://calculator1-gold.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/calculator1')} />,
-    icon3: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/calculator1')} />,
+    icon3: <FiCheckSquare onClick={() => handleClick('https://calculator1-gold.vercel.app/')} />,
     title1: 'Simple Calculator',
     title2: '',
     devtools: 'HTML, CSS, Javascript, Git'
   },
   {
     id: 5,
-    icon1: <FaShirtsinbulk onClick={() => handleClick('https://vercel.com/kennyoderinde/api-data-table-display')} />,
-    icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/api-data-table-display')} />,
-    icon3: <TbBrandVercel onClick={() => handleClick('https://vercel.com/kennyoderinde/api-data-table-display')} />,
-    title1: 'API color data display and fetch',
+    icon1: <FaShirtsinbulk onClick={() => handleClick('  https://frontend-bootstrap-project.vercel.app/#')} />,
+    icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/Frontend-Bootstrap-Project')} />,
+    icon3: <TbBrandVercel onClick={() => handleClick('  https://frontend-bootstrap-project.vercel.app/#')} />,
+    title1: 'Front-end Bootstrap Project',
     title2: '',
-    devtools: 'React, CSS, Git'
+    devtools: 'HTML, Bootstrap, Git'
   },
-
   {
     id: 6,
-    icon1: <FaShirtsinbulk onClick={() => handleClick('https://vercel.com/kennyoderinde/router-assignment')} />,
+    icon1: <FaShirtsinbulk onClick={() => handleClick('https://router-assignment-two.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/api-data-table-display')} />,
-    icon3: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/router-assignment')} />,
-    title1: 'API data table display and fetch',
-    title2: 'React Form page updated with hook state',
+    icon3: <FiCheckSquare onClick={() => handleClick('https://router-assignment-two.vercel.app/')} />,
+    title1: 'Meme Generator',
+    title2: '',
     devtools: 'React, CSS, Git'
   },
 
   {
     id: 7,
-    icon1: <FaShirtsinbulk onClick={() => handleClick('https://vercel.com/kennyoderinde/social-proof-page')} />,
+    icon1: <FaShirtsinbulk onClick={() => handleClick('https://social-proof-page.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/social-proof-page')} />,
-    icon3: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/social-proof-page')} />,
-    title1: 'API data table display and fetch',
-    title2: 'React Form page updated with hook state',
-    devtools: 'HTML, CSS, Git'
+    icon3: <FiCheckSquare onClick={() => handleClick('https://social-proof-page.vercel.app/')} />,
+    title1: 'Social Proof Page',
+    title2: '',
+    devtools: 'HTML, CSS, Git' 
   },
 
   {
     id: 8,
-    icon1: <FaShirtsinbulk onClick={() => handleClick('https://vercel.com/kennyoderinde/article-preview-design')} />,
+    icon1: <FaShirtsinbulk onClick={() => handleClick('https://article-preview-design.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/article-preview-design')} />,
-    icon3: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/article-preview-design')} />,
+    icon3: <FiCheckSquare onClick={() => handleClick('https://article-preview-design.vercel.app/')} />,
     title1: 'Article Preview Page',
     title2: '',
     devtools: 'HTML, CSS, Git'
   },
-  {
-    id: 9,
-    icon1: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/bootstrap-assignment')} />,
-    icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/Frontend-Bootstrap-Project')} />,
-    icon3: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/frontend-bootstrap-project')} />,
-    title1: 'Front-end bootstrap project',
-    title2: 'Click pocket icon to see another one',
-    devtools: 'React, CSS, Git'
-  },
   
   {
-    id: 10,
-    icon1: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/group-seven')} />,
+    id: 9,
+    icon1: <FiCheckSquare onClick={() => handleClick('https://group-seven-zeta.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/Group_Seven_Collaboration')} />,
-    icon3: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/group-seven')} />,
+    icon3: <FiCheckSquare onClick={() => handleClick('https://group-seven-zeta.vercel.app/')} />,
     title1: 'Collaboration project',
-    title2: 'React Form page updated with hook state',
+    title2: '',
     devtools: 'HTML, CSS, Git'
   },
 
   {
-    id: 11,
+    id: 10,
     icon1: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/product-preview-card')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/product-preview-card')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://qr-code-project-five.vercel.app/')} />,
