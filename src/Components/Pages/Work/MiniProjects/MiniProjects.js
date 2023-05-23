@@ -142,12 +142,8 @@ const ProjectList = () => {
                 <div className="  text-sm text-gray-300 font-roboto font-light -mt-4 p-5  ">{project.devtools}</div>
             </div>
           ))}
-    </div>
           </div>
-          {/* <div className=' w-20 h-20 flex items-center justify-center hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg'>
-              <button type='button' className=' w-20 h-20 hover:bg-green-500 hover:ml-8 hover:mt-8 transition-all duration-1000 delay-500 rounded-lg' />
-          </div> */}
-
+          </div>
         </React.Fragment>
       )
     }

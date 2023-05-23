@@ -64,7 +64,6 @@ const About = () => {
                           <div className=' text-xs sm:text-base text-green-400 ml-16 '>{item.icon}</div>
                           <p className=' font-roboto font-normal text-xs sm:text-base text-gray-400 whitespace-nowrap -mt-1 sm:-mt-2 hover:text-green-500   '>{item.title}</p>
                         </div>
-                        
                       </li>
                     )
                   })
