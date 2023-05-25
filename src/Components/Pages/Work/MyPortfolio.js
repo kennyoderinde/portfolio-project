@@ -16,7 +16,7 @@ const MyPortfolioPage = () => {
           </div>
           <div className=' h-40 sm:-ml-60 sm:flex sm:flex-col sm:justify-center items-center flex flex-col justify-center items-center'>
               <div className='flex items-center justify-center space-x-6'>
-                <h2 className=' whitespace-nowrap font-montserrat text-lg sm:text-3xl  text-gray-400 font-normal mt-6'>Portfolio </h2>
+                <h2 className=' whitespace-nowrap font-montserrat text-lg sm:text-3xl  text-gray-400 font-normal mt-6'>Personal Portfolio </h2>
                 <p className=' whitespace-nowrap mt-6 font-roboto text-xs sm:text-base text-green-500 font-normal '></p>
               </div>
               <p className='flex justify-center items-center font-roboto font-normal text-xs sm:text-lg text-green-500 p-4 sm:p-25 -mt-2 sm:mt-0 shadow-lg'>A compilation of web solutions that shows my skills, trainings and experiences</p>
