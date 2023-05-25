@@ -56,8 +56,8 @@ const ExperiencePage = () => {
     <div id="experienceSection" className=' sm:z-30 relative sm:relative flex-auto bg-[#020c1b] left-38 sm:left-28 sm:p-4 -top-52 sm:-top-60 w-80 sm:w-full ' style={{ height: '150%'}}>
       <div className=" relative  sm:p-12 -left-20 sm:left-20 top-10 sm:top-20">
           <div className='flex sm:mt-0 mt-20 '>
-            <p className=' text-base sm:text-lg font-medium text-green-400 font-montserrat'>02.  </p>
-            <span className=' whitespace-nowrap text-lg sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3'>Where I have worked</span>
+            <p className=' text-lg sm:text-lg font-medium text-green-400 font-montserrat'>02.  </p>
+            <span className=' whitespace-nowrap text-2xl sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3'>Where I have worked</span>
             <div className=' ml-8 mt-6 border-t border-gray-500' style={{ width: '25rem' }}> </div>
           </div>
         <div className="container mx-auto sm:py-8">
@@ -68,7 +68,7 @@ const ExperiencePage = () => {
               </div>
             </div>
             <div className="sm:w-3/5 w-screen p-4 sm:px-4 px-1">
-              <div className=" z-40 text-gray-400 sm:text-black sm:bg-white opacity-80 sm:shadow-md  sm:px-8 sm:py-6 sm:-ml-20 w-0.5rem sm:w-0.5rem h-0.28rem " style={{ }}>
+              <div className=" z-40 text-gray-400 sm:text-black sm:bg-white opacity-80 sm:shadow-md  sm:px-8 sm:py-6 sm:-ml-20 w-0.8rem sm:w-0.5rem h-0.28rem " style={{ }}>
                 {renderSelectedOption()}
               </div>
             </div>

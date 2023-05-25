@@ -60,7 +60,7 @@ const Navbar = () => {
             navLinks.map(nav => renderNavLinks (nav))
           }
           
-          <a href='https://drive.google.com/file/d/1rNCyFppQIS-PvC4LMsf6oLmgCtjJbMxW/view?usp=sharing' target="_blank" rel="noopener noreferrer" className=' top-0 relative text-base font-montserrat font-medium  p-2 flex items-center justify-between  hover:ml-8 hover:text-white hover:bg-green-500  border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
+          <a href='https://drive.google.com/file/d/1iwWbcsQBxXud1b5GZxUBOX_otsbYyss2/view' target="_blank" rel="noopener noreferrer" className=' top-0 relative text-base font-montserrat font-medium  p-2 flex items-center justify-between  hover:ml-8 hover:text-white hover:bg-green-500  border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
             <span className=' hover:text-white text-green-400'>Resume</span>
           </a>
         </div>
