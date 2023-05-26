@@ -122,11 +122,11 @@ const ProjectList = () => {
             <p className=' flex items-center justify-center text-gray-200 font-montserrat font-semibold sm:text-2xl text-xl whitespace-nowrap mt-20'>Other Noteworthy Projects</p>
             <span className= 'flex flex-wrap items-center justify-center text-green-500 font-roboto font-normal sm:text-base whitespace-nowrap leading-10'>view the archive</span>
           </div>
-          <div className=' sm:w-full sm:items-center sm:justify-center sm:flex sm:flex-wrap -ml-12 sm:-mt-20 sm:p-20 sm:mr-20'>
+          <div className=' sm:w-full sm:items-center sm:justify-center sm:flex grid sm:flex-wrap -ml-12 sm:-mt-20 sm:p-20 sm:mr-20'>
           {projectsData.map((project) => (
             
             <div key={project.id}
-            className=' bg-gray-700 inline-block mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4'
+            className=' bg-gray-700 inline-block mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4  shadow-2xl shadow-lime-500  '
             style={{ width: '19rem', height: '19rem'}}
             >
               
@@ -137,9 +137,9 @@ const ProjectList = () => {
                   <div className="  text-xl text-slate-100  hover:text-green-500 ">{project.icon3}</div>
                 </div>
                 </div>
-                <div className="  text-lg text-gray-100 font-montserrat font-normal -mt-3 p-5 ">{project.title1}</div>
-                <div className="  text-lg text-gray-100 font-montserrat font-normal -mt-3 p-5 ">{project.title2}</div>
-                <div className="  text-sm text-gray-300 font-roboto font-light -mt-4 p-5  ">{project.devtools}</div>
+                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-semibold text-gray-100 font-montserrat  -mt-3 p-5 uppercase ">{project.title1}</div>
+                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-semibold text-gray-100 font-montserrat  -mt-3 p-5 uppercase ">{project.title2}</div>
+                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-semibold text-gray-300 font-roboto  -mt-4 p-5  ">{project.devtools}</div>
             </div>
           ))}
           </div>
