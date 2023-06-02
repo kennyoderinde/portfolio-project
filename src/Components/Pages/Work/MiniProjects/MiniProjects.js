@@ -15,7 +15,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://e-commerce-redux-project.vercel.app/')} />,
     title1: 'Prime Numbers Multiplication table',
     title2: 'React Form page updated with hook state',
-    devtools: 'React, CSS, Git'
+    devtools: 'React CSS Git'
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://reviews-restaurant-react-project.vercel.app/')} />,
     title1: 'Workers Review',
     title2: 'Itemizing a restaurant menu list',
-    devtools: 'React, CSS, Git'
+    devtools: 'React CSS Git'
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://todo-list-project-chi.vercel.app/')} />,
     title1: 'A To-do List App',
     title2: '',
-    devtools: 'React, CSS, Git'
+    devtools: 'React CSS Git'
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://calculator1-gold.vercel.app/')} />,
     title1: 'Simple Calculator',
     title2: '',
-    devtools: 'HTML, CSS, Javascript, Git'
+    devtools: 'HTML CSS Javascript, Git'
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const projectsData = [
     icon3: <TbBrandVercel onClick={() => handleClick('  https://frontend-bootstrap-project.vercel.app/#')} />,
     title1: 'Front-end Bootstrap Project',
     title2: '',
-    devtools: 'HTML, Bootstrap, Git'
+    devtools: 'HTML Bootstrap Git'
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://router-assignment-two.vercel.app/')} />,
     title1: 'Meme Generator',
     title2: '',
-    devtools: 'React, CSS, Git'
+    devtools: 'React CSS Git'
   },
 
   {
@@ -70,7 +70,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://social-proof-page.vercel.app/')} />,
     title1: 'Social Proof Page',
     title2: '',
-    devtools: 'HTML, CSS, Git' 
+    devtools: 'HTML CSS Git' 
   },
 
   {
@@ -80,7 +80,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://article-preview-design.vercel.app/')} />,
     title1: 'Article Preview Page',
     title2: '',
-    devtools: 'HTML, CSS, Git'
+    devtools: 'HTML CSS Git'
   },
   
   {
@@ -90,7 +90,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://group-seven-zeta.vercel.app/')} />,
     title1: 'Collaboration project',
     title2: '',
-    devtools: 'HTML, CSS, Git'
+    devtools: 'HTML CSS Git'
   },
 
   {
@@ -100,7 +100,7 @@ const projectsData = [
     icon3: <FiCheckSquare onClick={() => handleClick('https://qr-code-project-five.vercel.app/')} />,
     title1: 'Product Preview Card',
     title2: 'QR Code design',
-    devtools: 'HTML, CSS, Git'
+    devtools: 'HTML CSS Git'
   }
 ];
 
@@ -126,21 +126,23 @@ const ProjectList = () => {
           {projectsData.map((project) => (
             
             <div key={project.id}
-            className=' bg-gray-700 inline-block mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4  shadow-2xl shadow-lime-500  '
-            style={{ width: '19rem', height: '19rem'}}
+            className=' card bg-gray-700 inline-block mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4  shadow-2xl shadow-lime-500  '
+            style={{ width: '19rem', height: '18rem'}}
             >
               
-              <div className='flex space-x-44 mt-6 p-6'>
-                <div className="  text-3xl text-green-500  hover:text-white ">{project.icon1}</div>
-                <div className=' flex space-x-6 ml-20'>
+              <div className='flex space-y-44 mt-6 p-6'>
+                
+                </div>
+                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-medium text-gray-100 font-montserrat  -mt-3 p-5 uppercase  ">{project.title1}</div>
+                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-medium text-gray-100 font-montserrat  -mt-3 p-5 uppercase  ">{project.title2}</div>
+                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-medium text-gray-300 font-roboto space-x-40  -mt-4 p-5  ">{project.devtools}</div>
+                {/* <div className="  text-xl  text-green-500  hover:text-white ">{project.icon1}</div> */}
+                <div className=' flex items-center justify-center sm:flex sm:items-center sm:justify-center space-x-6 ml-20'>
                   <div className="  text-xl text-slate-100  hover:text-green-500 ">{project.icon2}</div>
                   <div className="  text-xl text-slate-100  hover:text-green-500 ">{project.icon3}</div>
                 </div>
-                </div>
-                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-semibold text-gray-100 font-montserrat  -mt-3 p-5 uppercase ">{project.title1}</div>
-                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-semibold text-gray-100 font-montserrat  -mt-3 p-5 uppercase ">{project.title2}</div>
-                <div className=" sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base font-semibold text-gray-300 font-roboto  -mt-4 p-5  ">{project.devtools}</div>
-            </div>
+              
+              </div>
           ))}
           </div>
           </div>

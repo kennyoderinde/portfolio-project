@@ -71,7 +71,6 @@ const Navbar = () => {
             onClick={() => setNav (!nav)}
             className=' cursor-pointer mr-6 pl-10 z-10 md:hidden'>
               { nav ?  <FaTimes className='text-white' size={25}/> : <FaAlignJustify className=' text-white' size={25} />}
-            
           </div> 
 
           { nav && (

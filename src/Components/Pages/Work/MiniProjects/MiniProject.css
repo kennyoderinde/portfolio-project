@@ -1,0 +1,59 @@
+:root {
+  --clr-1: #052b2f;
+  --clr-2: #073438;
+  --clr-3: #0e4b50;
+  --clr-4: #2d8f85;
+  --clr-5: #637c54;
+  --gradient-angle: 0deg;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  padding-bottom: 66.666%; /* 1.5 / 1 = 1.5; 1.5 / 2.25 = 0.6666... */
+  background: var(--clr-1);
+  border-radius: 0.5rem;
+  opacity: 1;
+  box-shadow: 0 0 0 0.25rem var(--clr-2), 0 0 0 0.5rem var(--clr-2);
+  animation: glowing 1s infinite alternate;
+}
+
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  inset: -0.5rem;
+  z-index: -1;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    var(--clr-3),
+    var(--clr-4),
+    var(--clr-5),
+    var(--clr-4),
+    var(--clr-5)
+  );
+  border-radius: inherit;
+  animation: rotation 20s linear infinite;
+}
+
+.card::after {
+  filter: blur(3.5rem);
+}
+
+@keyframes rotation {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 0 0.25rem var(--clr-2), 0 0 0 0.5rem var(--clr-2);
+  }
+  100% {
+    box-shadow: 0 0 0 0.75rem var(--clr-2), 0 0 0 1rem var(--clr-2);
+  }
+}

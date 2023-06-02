@@ -12,7 +12,7 @@ import Experience from './Components/Pages/Experience/Experience';
 
 function App() {
   return (
-    <div className='relative  min-h-screen bg-[#020c1b] '>
+    <div className='relative  min-h-screen bg-[#020c1b] p-0 box-border m-0 transition '>
     <Navbar /> 
       <section name="/" className="min-h-screen flex items-center">
         <Home />
