@@ -14,7 +14,7 @@ const MyPortfolioPage = () => {
         <div className='flex sm:-ml-36 sm:w-full sm:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
             <img src={HomezPic} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
           </div>
-          <div className=' h-40 sm:-ml-60 sm:flex sm:flex-col sm:justify-center items-center flex flex-col justify-center items-center'>
+          <div className=' h-40 sm:-ml-60 sm:flex sm:flex-col sm:justify-center  flex flex-col justify-center items-center'>
                <div className='flex items-center justify-center space-x-6'>
                 <h2 className=' whitespace-nowrap font-montserrat text-lg sm:text-3xl  text-gray-400 font-normal  mt-6'>Homez Thrift App </h2>
               </div>
@@ -22,10 +22,9 @@ const MyPortfolioPage = () => {
 
 
                 <div className='flex items-center justify-center -mt-2 space-x-8  sm:mt-0'>
-                    <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'><a href= 'https://github.com/kennyoderinde/homez_thrift_app_project'  target="_blank">< GithubIcons.FiGithub /></a></span>
-                    <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'><a href= 'https://homez-thrift-app-project.vercel.app/'  target="_blank">< CheckoutIcon.FiCheckSquare /></a></span>  
+                  <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'><a href= 'https://github.com/kennyoderinde/homez_thrift_app_project'  target="_blank">< GithubIcons.FiGithub /></a></span>
+                  <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'><a href= 'https://homez-thrift-app-project.vercel.app/'  target="_blank">< CheckoutIcon.FiCheckSquare /></a></span>  
                 </div>
-
             </div>
       </div>
     </div>

@@ -30,9 +30,6 @@ const CitronePage = () => {
                     <span className=' cursor-pointer text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'><a href= 'https://github.com/ayomikun2018/citrone-redesign-groupA'  target="_blank">< GithubIcons.FiGithub /></a></span>
                     <span className=' text-lg sm:text-2xl font-medium hover:text-green-500  text-gray-200'><a href= 'https://citrone-redesign-group-a.vercel.app/dashboard#'  target="_blank">< CheckoutIcon.FiCheckSquare /></a></span>  
               </div>
-
-              
-
             </div>
         </div>
       </div>

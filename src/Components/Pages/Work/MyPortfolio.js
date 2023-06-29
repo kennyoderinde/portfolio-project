@@ -19,7 +19,7 @@ const MyPortfolioPage = () => {
                 <h2 className=' whitespace-nowrap font-montserrat text-lg sm:text-3xl  text-gray-400 font-normal mt-6'>CAC Web App Clone </h2>
                 <p className=' whitespace-nowrap mt-6 font-roboto text-xs sm:text-base text-green-500 font-normal '></p>
               </div>
-              <p className='flex justify-center items-center font-roboto font-normal text-xs sm:text-lg text-green-500 p-4 sm:p-25 -mt-2 sm:mt-0 shadow-lg'> A web application clone of the Nigerian Corporate Affairs Commission  </p>
+              <p className='flex justify-center items-center font-roboto font-normal text-xs sm:text-lg text-green-500 p-4 sm:p-25 -mt-2 sm:mt-0 shadow-lg text-center'> A web application clone of the Nigerian Corporate Affairs Commission  </p>
 
 
               <div className='flex items-center justify-center -mt-2 space-x-8  sm:mt-0'>

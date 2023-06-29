@@ -34,7 +34,7 @@ const Navbar = () => {
         <li>
           <button 
             onClick={handleNavClick}
-            className=' block mt-3 lg:inline-block text-gray-500 ml-1 font-roboto text-base font-normal hover:text-green-500 mr-4 hover:scale-105 transition-all duration-200 cursor-pointer'
+            className=' block mt-3 lg:inline-block text-gray-500 ml-1 font-roboto sm:text-base text-lg  font-normal hover:text-green-500 mr-4 hover:scale-105 transition-all duration-200 cursor-pointer'
             style={{ }}
             >
             {content}
@@ -49,7 +49,7 @@ const Navbar = () => {
   
 
   return (
-    <header className=" fixed top-0 z-50 flex items-center justify-between flex-wrap backdrop-blur-lg  bg-[#020c1b] p-4 sm:p-4 shadow-md sm:space-x-36 w-full sm:w-full " style={{ }} >
+    <header className=" fixed top-0 z-50 flex items-center justify-between flex-wrap backdrop-blur-lg  bg-[#020c1b] p-4 sm:p-4 shadow-md sm:space-x-36 w-full sm:w-full h-20 sm:h-20 " style={{ }} >
       <div className="  z-20 flex items-center ml-2 sm:ml-14 text-white" style={{}}>
         < GiIsland className=" text-green-500 font-semibold hover:text-white hover:bg-green-500  text-6xl p-2 sm:p-1 hover:animate-bounce duration-300 delay-300 transition-all "/>
       </div>

@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <React.Fragment>
-        <div id="aboutSection" className=' z-20 relative flex-auto bg-[#020c1b] left-38 sm:left-20 p-10 sm:p-4 sm:-top-20 -top-44 w-80 sm:w-full ' style={{ height: '150%'}}>
+        <div id="aboutSection" className=' z-40 relative flex-auto bg-[#020c1b] left-38 sm:left-20 p-10 sm:p-4 sm:-top-20 -top-44 w-80 sm:w-full ' style={{ height: '150%'}}>
             <div className=' relative p-12 -ml-28 sm:ml-28 mt-0 '>
               <div className=' flex sm:mt-0 mt-20 '>
                 <p className=' text-base sm:text-xl font-medium text-green-400 font-montserrat'>01.  </p>
