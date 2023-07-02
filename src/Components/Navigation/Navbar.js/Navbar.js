@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import resumePDF from '../../Pages/portfolioAssets/kehinde-oderinde-resume.pdf'
+// import resumePDF from '../../Pages/portfolioAssets/kehinde-oderinde-resume.pdf'
 import './Navbar.css'
 import { GiIsland } from "react-icons/gi";
 import { FaAlignJustify, FaTimes } from "react-icons/fa";
@@ -60,7 +60,7 @@ const Navbar = () => {
             navLinks.map(nav => renderNavLinks (nav))
           }
           
-          <a href='https://drive.google.com/file/d/1iwWbcsQBxXud1b5GZxUBOX_otsbYyss2/view' target="_blank" rel="noopener noreferrer" className=' top-0 relative text-base font-montserrat font-medium  p-2 flex items-center justify-between  hover:ml-8 hover:text-white hover:bg-green-500  border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
+          <a href='https://drive.google.com/file/d/10I-A9LHYatWYWGpBu5SJGCH06HQJB4Kt/view?usp=drive_link' target="_blank" rel="noopener noreferrer" className=' top-0 relative text-base font-montserrat font-medium  p-2 flex items-center justify-between  hover:ml-8 hover:text-white hover:bg-green-500  border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
             <span className=' hover:text-white text-green-400'>Resume</span>
           </a>
         </div>
@@ -80,7 +80,7 @@ const Navbar = () => {
             navLinks.map(nav => renderNavLinks (nav))
             }
 
-          <a href='https://drive.google.com/file/d/1bTNbZYXYxhQwxBrLhE9l-bFWve1C2QWn/view?usp=sharing' target="_blank" rel="noopener noreferrer" className=' top-0 relative text-base font-montserrat font-medium  p-2 flex items-center justify-between mt-4  hover:ml-8 hover:text-white hover:bg-green-500 border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
+          <a href='https://drive.google.com/file/d/10I-A9LHYatWYWGpBu5SJGCH06HQJB4Kt/view?usp=drive_link' target="_blank" rel="noopener noreferrer" className=' top-0 relative text-base font-montserrat font-medium  p-2 flex items-center justify-between mt-4  hover:ml-8 hover:text-white hover:bg-green-500 border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
             <span className=' hover:text-white text-green-400'>Resume</span>
           </a>
         </ul>
