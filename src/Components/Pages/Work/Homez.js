@@ -6,7 +6,7 @@ import * as CheckoutIcon from "react-icons/fi";
 
 
 
-const MyPortfolioPage = () => {
+const CacClone = () => {
   return (
     <div className=''>
         <div className=" relative  sm:relative sm:p-12 -left-20 sm:left-6 top-20 sm:top-10">
@@ -31,4 +31,4 @@ const MyPortfolioPage = () => {
   )
 }
 
-export default MyPortfolioPage
+export default CacClone

@@ -71,7 +71,7 @@ const About = () => {
               </ul>
             </div> 
 
-            <div className="z-40 sm:relative absolute -left-10 top-80 sm:-top-96 sm:left-96 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg  sm:w-18 sm:h-18">
+            <div className="z-40 sm:relative absolute -left-10 top-80 sm:-top-96 sm:left-80 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg  sm:w-18 sm:h-18">
                 <img src={MyPics} alt="" className="absolute hover:bg-green-500 hover:ml-8 hover:mt-8 top-80 left-40 sm:top-0 sm:left-0 transition-all duration-1000 delay-500 rounded-lg h-auto w-40 sm:w-full max-w-xs sm:max-w-full sm:h-auto" style={{  }} />
             </div>
 
