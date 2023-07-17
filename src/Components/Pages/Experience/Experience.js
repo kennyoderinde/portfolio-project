@@ -5,7 +5,7 @@ import Eelive from './Eelive'
 // import './Experience.css'
 
 const ExperiencePage = () => {
-  const [selectedOption, setSelectedOption] = useState("");
+  const [selectedOption, setSelectedOption] = useState("Stutern");
 
   const handleOptionClick = (option) => {
     setSelectedOption(option);
