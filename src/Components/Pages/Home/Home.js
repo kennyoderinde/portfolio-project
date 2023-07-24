@@ -7,7 +7,7 @@ import { AiOutlineRight } from "react-icons/ai";
 const Home = () => {
   return (
     <React.Fragment>                        
-      <div id="homeSection" className=' relative sm:relative flex-auto bg-[#020c1b] z-40 left-38 sm:-top-20 p-12 sm:p-20 w-80 sm:w-full ' style={{ height: '150%'}}>
+      <div id="homeSection" className=' relative sm:relative flex-auto bg-[#020c1b] z-20 left-38 sm:-top-20 p-12 sm:p-20 w-80 sm:w-full ' style={{ height: '150%'}}>
         <div className=' relative -left-20 sm:left-10 mt-28 sm:mt-28  px-1 md:flex-row max-w-screen'>
           <p className=' mr-10 font-roboto font-medium text-lg sm:text-xl text-green-400'>Hi, my name is</p>
           <h1 className=' mr-10 font-montserrat font-bold whitespace-nowrap text-5xl sm:text-7xl text-slate-300 mt-4 sm:mt-10'>Kehinde Oderinde.</h1>
