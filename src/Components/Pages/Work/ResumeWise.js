@@ -9,9 +9,9 @@ import * as CheckoutIcon from "react-icons/fi";
 const ResumeWise= () => {
   return (
     <div className=''>
-        <div className=" w-full relative sm:relative sm:p-12 -left-20 sm:left-6 top-24 sm:top-14 border-2 border-red-500">
+        <div className=" w-full relative sm:relative sm:p-12 -left-20 sm:left-6 top-24 sm:top-14 ">
           
-          <div className='flex sm:-ml-36 sm:w-full sm:flex sm:items-center sm:justify-center items-center justify-center mt-8 border-2 border-red-500'>
+          <div className='flex sm:-ml-36 sm:w-full sm:flex sm:items-center sm:justify-center items-center justify-center mt-8 '>
             <img src={CacClone} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
           </div>
           <div className=' h-40 sm:-ml-60 sm:flex sm:flex-col sm:justify-center  flex flex-col justify-center items-center'>
