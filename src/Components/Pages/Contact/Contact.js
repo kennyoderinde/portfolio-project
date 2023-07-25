@@ -1,11 +1,30 @@
 import React from 'react'
 
+
+import { BsPhoneVibrate } from "react-icons/bs";
+import { MdOutlineAttachEmail } from "react-icons/md";
+
+
 const Contact = () => {
+
+  const phoneNumber = 'npm install react-icons react-icons-kit';
+
   return (
     <div id="contactSection" className=' relative sm:relative sm:top-40 top-60 w-full h-screen sm:left-0 left-36'>
       <div className=' flex flex-col justify-center'>
-        <div className=' text-white mt-32 text-center'>
-          <p className=' text-3xl font-semibold font-montserrat leading-loose'>Contact</p>
+        <div className=' text-white mt-32 text-center '>
+          <p className=' text-3xl font-semibold font-montserrat leading-loose'>Contact:</p>
+
+          <div className='flex justify-center space-x-6'>
+            <a href= {`tel: ${phoneNumber}`} className='z-40 flex justify-center p-1 w-20 h-7 bg-slate-300 rounded-xl  ' target="_blank" rel="noopener noreferrer">
+            < BsPhoneVibrate className='text-center text-2xl text-gray-800'  />
+            </a> 
+            <a href="https://twitter.com/yourusername" className='z-40 flex justify-center p-1 w-20 h-7 bg-slate-300 rounded-xl  ' target="_blank" rel="noopener noreferrer">
+              < MdOutlineAttachEmail className='text-center text-2xl text-gray-800'  />
+            </a>
+          </div>
+          
+          
           <p className=' font-montserrat leading-loose'>Submit the form to get in touch with me</p>
         </div>
 
