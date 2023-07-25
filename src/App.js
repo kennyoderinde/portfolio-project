@@ -2,17 +2,17 @@ import './App.css';
 // import {Route, Routes} from 'react-router';
 import Navbar from "./Components/Navigation/Navbar.js/Navbar";
 import Sidebar from './Components/Navigation/Sidebar/Sidebar';
-import RightBar from './Components/Navigation/RightBar/RightBar';
+// import RightBar from './Components/Navigation/RightBar/RightBar';
 import Home from "./Components/Pages/Home/Home.js"
 import Work from "./Components/Pages/Work/Work"
 import About from './Components/Pages/About/About';
-import Thought from './Components/Pages/Thought/Thought';
+import Contact from './Components/Pages/Contact/Contact';
 import Experience from './Components/Pages/Experience/Experience';
 
 
 function App() {
   return (
-    <div className='relative  min-h-screen bg-[#020c1b] p-0 box-border m-0 transition '>
+    <div className='relative sm:w-full min-h-screen bg-[#020c1b] p-0 box-border m-0 transition '>
     <Navbar /> 
       <section name="/" className="min-h-screen flex items-center">
         <Home />
@@ -26,10 +26,9 @@ function App() {
       <section name="work" className="min-h-screen flex items-center">
         <Work />
       </section>
-      <section name="thought" className="min-h-screen flex items-center">
-        <Thought />
+      <section name="contact" className="min-h-screen flex items-end">
+        <Contact />
       </section>
-
       
       <Sidebar />
 

@@ -16,7 +16,7 @@ const Navbar = () => {
      'About',
      'Experience',
      'Work', 
-     'Thought' 
+     'Contact' 
   ];
 
   const renderNavLinks =(content) => {

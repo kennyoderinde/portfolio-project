@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import * as TagIcons from "react-icons/ai";
 import technologies from './AboutList';
 import MyPics from '../portfolioAssets/IMG_8200.jpeg'
+import "./About.css"
 
 
 const About = () => {
@@ -41,7 +42,7 @@ const About = () => {
                 </div>
                 <div className=' sm:-mt-16 w-0.5rem h-0.28rem sm:w-0.5rem'  style={{}}>
                   <p className='  font-montserrat font-normal text-sm sm:text-base text-gray-400 whitespace-normal tracking-wide	'>
-                  Here are a few technologies I’ve been working with recently:
+                  Technologies I use:
                   </p>
                 </div>
               </div>
@@ -70,10 +71,20 @@ const About = () => {
                 }
               </ul>
             </div> 
-
-            <div className="z-40 sm:relative absolute -left-10 top-80 sm:-top-96 sm:left-80 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg  sm:w-18 sm:h-18">
-                <img src={MyPics} alt="" className="absolute hover:bg-green-500 hover:ml-8 hover:mt-8 top-80 left-40 sm:top-0 sm:left-0 transition-all duration-1000 delay-500 rounded-lg h-auto w-40 sm:w-full max-w-xs sm:max-w-full sm:h-auto" style={{  }} />
+                {/* spinning image */}
+            <div class="container sm:relative absolute ">
+              <div className="box sm:-left-40 sm:-top-32 -top-[22rem] left-20 ">
+                <div class="spin-container">
+                  <div class="shape">
+                    <div class="bd"></div>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            {/* <div className="z-40 sm:relative absolute -left-10 top-80 sm:-top-96 sm:left-80 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg  sm:w-18 sm:h-18">
+                <img src={MyPics} alt="" className="absolute hover:bg-green-500 hover:ml-8 hover:mt-8 top-80 left-40 sm:top-0 sm:left-0 transition-all duration-1000 delay-500 rounded-lg h-auto w-40 sm:w-full max-w-xs sm:max-w-full sm:h-auto" style={{  }} />
+            </div> */}
 
           </div>      
         </div>
