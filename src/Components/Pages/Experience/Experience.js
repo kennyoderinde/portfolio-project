@@ -63,8 +63,8 @@ const ExperiencePage = () => {
         <div className="container mx-auto sm:py-8">
           <div className="sm:flex sm:flex-wrap sm:-mx-4">
             <div className="md:w-1/6 ">
-              <div className="bg-none hover:text-green-500 shadow-md text-base">
-                <ul className="sm:flex sm:flex-col sm:-mt-3 md:28 mt-32 flex">{renderSettingsOptions()}</ul>
+              <div className="bg-none hover:text-green-500 shadow-md text-base ">
+                <ul className="sm:flex sm:flex-col sm:-mt-3 md:28 mt-64 flex ">{renderSettingsOptions()}</ul>
               </div>
             </div>
             <div className="sm:w-3/5 w-screen p-4 sm:px-4 px-1">
