@@ -54,7 +54,7 @@ const ExperiencePage = () => {
 // relative sm:relative  flex-auto bg-[#020c1b] z-20 left-28 sm:-top-20 p-12 sm:p-20 sm:w-full
   return (
     <div id="experienceSection" className=' z-20 relative sm:relative flex-auto bg-[#020c1b] left-38 sm:left-28 sm:p-4 -top-52 sm:-top-60 w-80 sm:w-full ' style={{ height: '150%'}}>
-      <div className=" relative  sm:p-12 -left-20 sm:left-20 top-10 sm:top-20">
+      <div className=" relative  sm:p-12 -left-2 sm:left-20 top-10 sm:top-20">
           <div className='flex sm:mt-0 mt-20 '>
             <p className=' text-lg sm:text-lg font-medium text-green-400 font-montserrat'>02.  </p>
             <span className=' whitespace-nowrap text-2xl sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3'>Where I have worked</span>

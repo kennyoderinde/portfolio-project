@@ -49,7 +49,7 @@ const About = () => {
             </div>
           
 
-          <div className='flex items-center sm:ml-36 sm:space-x-44 space-x-20 -mt-4 -ml-72 flex-col sm:flex sm:flex-row '>
+          <div className='flex items-center sm:ml-36 sm:space-x-44 space-x-20 -mt-4 -ml-52 flex-col sm:flex sm:flex-row '>
             <div className=' sm:w-96 sm:h-96 -mt-0 -ml-52 sm:mt-0 sm:-ml-14'>
               <ul className=' -space-y-3 sm:space-y-1 sm:flex sm:flex-wrap  sm:w-30' style={{}}>
                 {
@@ -73,7 +73,7 @@ const About = () => {
             </div> 
                 {/* spinning image */}
             <div class="container sm:relative absolute ">
-              <div className="box sm:-left-40 sm:-top-32 -top-[22rem] left-20 ">
+              <div className="box sm:-left-40 sm:-top-32 -top-[17rem] left-20 ">
                 <div class="spin-container">
                   <div class="shape">
                     <div class="bd"></div>

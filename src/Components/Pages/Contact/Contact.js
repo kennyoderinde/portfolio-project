@@ -10,7 +10,7 @@ const Contact = () => {
   const phoneNumber = 'npm install react-icons react-icons-kit';
 
   return (
-    <div id="contactSection" className=' relative sm:relative sm:top-40 top-60 w-full h-screen sm:left-0 left-36'>
+    <div id="contactSection" className=' relative sm:relative sm:top-40 top-[33rem] w-full h-screen sm:left-0 left-36'>
       <div className=' flex flex-col justify-center'>
         <div className=' text-white mt-32 text-center '>
           <p className=' text-3xl font-semibold font-montserrat leading-loose'>Contact:</p>
