@@ -7,7 +7,7 @@ import { MdOutlineAttachEmail } from "react-icons/md";
 
 const Contact = () => {
 
-  const phoneNumber = 'npm install react-icons react-icons-kit';
+  const phoneNumber = '+234 817 5670 315';
 
   return (
     <div id="contactSection" className=' relative sm:relative sm:top-40 top-[33rem] w-full h-screen sm:left-0 left-36'>
@@ -15,12 +15,16 @@ const Contact = () => {
         <div className=' text-white mt-32 text-center '>
           <p className=' text-3xl font-semibold font-montserrat leading-loose'>Contact:</p>
 
-          <div className='flex justify-center space-x-6'>
-            <a href= {`tel: ${phoneNumber}`} className='z-40 flex justify-center p-1 w-20 h-7 bg-slate-300 rounded-xl  ' target="_blank" rel="noopener noreferrer">
-            < BsPhoneVibrate className='text-center text-2xl text-gray-800'  />
+          <div className='sm:flex sm:justify-center justify-center sm:flex-row flex-col sm:space-x-6 space-x-0 space-y-5 sm:space-y-0'>
+            <a href= {`tel: ${phoneNumber}`} className='z-40 flex justify-center whitespace-nowrap sm:space-x-2 p-1 sm:w-64 sm:h-10 w-64 h-10 bg-slate-300 rounded-xl font-semibold  '>
+              < BsPhoneVibrate className='text-center items-center text-2xl text-gray-800'  />
+              <p className='text-base text-gray-800 flex'>Call Me:</p>
+              <span className=' text-base text-gray-800'>{phoneNumber}</span>
             </a> 
-            <a href="https://twitter.com/yourusername" className='z-40 flex justify-center p-1 w-20 h-7 bg-slate-300 rounded-xl  ' target="_blank" rel="noopener noreferrer">
+            <a href="email" className='z-40 flex justify-center p-1 space-x-2 sm:w-64 sm:h-10 w-64 h-10 bg-slate-300 rounded-xl font-semibold ' target="_blank" rel="noopener noreferrer">
               < MdOutlineAttachEmail className='text-center text-2xl text-gray-800'  />
+              <span className=' text-base text-gray-800'>kennyoderyndeh@gmail.com</span>
+
             </a>
           </div>
           
