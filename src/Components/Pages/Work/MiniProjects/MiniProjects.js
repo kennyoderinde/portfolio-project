@@ -13,8 +13,8 @@ const projectsData = [
     icon1: <FaShirtsinbulk onClick={() => handleClick('https://e-commerce-redux-project.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/reviews-restaurant-react-project')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://e-commerce-redux-project.vercel.app/')} />,
-    title1: 'Prime Numbers Multiplication table',
-    title2: 'React Form page updated with hook state',
+    title1: 'Prime Number  X  table',
+    title2: 'React Form updated with hooks',
     devtools: 'React CSS Git'
   },
   {
@@ -23,7 +23,7 @@ const projectsData = [
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/reviews-restaurant-react-project')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://reviews-restaurant-react-project.vercel.app/')} />,
     title1: 'Workers Review',
-    title2: 'Itemizing a restaurant menu list',
+    title2: 'Restaurant menu list',
     devtools: 'React CSS Git'
   },
   {

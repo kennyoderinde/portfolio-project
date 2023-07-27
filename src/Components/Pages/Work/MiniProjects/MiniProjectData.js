@@ -33,8 +33,8 @@ const projectsData = [
         icon1: <WorkPocket.FaShirtsinbulk />, 
         icon2: <GithubIcons.FiGithub/>,
         icon3: < CheckoutIcon.FiCheckSquare />,
-        title1: 'Prime Numbers Multiplication table',
-        title2: 'React Form page updated with hook state  ',
+        title1: 'Prime Num X table',
+        title2: 'React Form updated with hooks  ',
         devtools: 'React, CSS, Git'
     },
     
