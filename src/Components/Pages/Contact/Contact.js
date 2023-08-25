@@ -10,7 +10,7 @@ const Contact = () => {
   const phoneNumber = '+234 817 5670 315';
 
   return (
-    <div id="contactSection" className=' relative sm:relative sm:top-40 top-[33rem] w-full h-screen sm:left-0 left-36'>
+    <div id="contactSection" className=' lg:mt-64 md:mt-[41rem] mt-[134rem] w-full h-screen md:ml-0 ml-24'>
       <div className=' flex flex-col sm:justify-center'>
         <div className=' text-white mt-32 text-center '>
           <p className=' text-3xl font-semibold font-montserrat leading-loose'>Contact:</p>
@@ -67,7 +67,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <footer className=" relative z-20 flex items-center flex-wrap backdrop-blur-lg justify-center bg-[#020c1b] p-4 sm:p-4 sm:space-x-36 w-full sm:w-full h-20 sm:h-20 shadow-2xl shadow-green-500 sm:ml-0 -ml-80 "  >
+        <footer className=" z-20 flex items-center flex-wrap backdrop-blur-lg justify-center bg-[#020c1b] p-4 md:space-x-36 w-full md:h-20 h-16 shadow-2xl shadow-green-500 md:ml-0 ml-0 md:mt-20 -mt-[33rem] md:mb-24 "  >
           <p className=' text-green-500 font-poppins font-normal text-sm text-center items-center'>© kennyoderyndeh. All rights reserved</p>
         </footer>
       </div>
@@ -78,3 +78,4 @@ const Contact = () => {
 }
 
 export default Contact
+

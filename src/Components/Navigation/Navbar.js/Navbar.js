@@ -34,13 +34,13 @@ const Navbar = () => {
         <li>
           <button 
             onClick={handleNavClick}
-            className=' block mt-3 lg:inline-block text-gray-500 ml-1 font-roboto sm:text-base text-lg  font-normal hover:text-green-500 mr-4 hover:scale-105 transition-all duration-200 cursor-pointer'
+            className=' block mt-3 md:inline-block text-gray-500 ml-1 font-roboto md:text-base text-lg  font-normal hover:text-green-500 mr-4 hover:scale-105 transition-all duration-200 cursor-pointer'
             style={{ }}
             >
             {content}
           </button>
 
-        </li>
+        </li> 
 
       </ul>
 
@@ -49,12 +49,12 @@ const Navbar = () => {
   
 
   return (
-    <header className=" fixed top-0 z-50 flex items-center justify-between flex-wrap backdrop-blur-lg  bg-[#020c1b] p-4 sm:p-4 shadow-md sm:space-x-36 w-full sm:w-full h-20 sm:h-20 " style={{ }} >
-      <div className="  z-20 flex items-center ml-2 sm:ml-14 text-white" style={{}}>
+    <header className=" fixed top-0 z-50 flex items-center justify-between flex-wrap backdrop-blur-lg  bg-[#020c1b] p-4 md:p-4 shadow-md md:space-x-36 lg:space-x-96 w-full md:w-full h-20 md:h-20  " style={{ }} >
+      <div className="  z-20 flex items-center ml-2 md:ml-6 text-white" style={{}}>
         < GiIsland className=" text-green-500 font-semibold hover:text-white hover:bg-green-500  text-6xl p-2 sm:p-1 hover:animate-bounce duration-300 delay-300 transition-all "/>
       </div>
-      <div className=" hidden md:flex w-full -mt-8  flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm flex flex-wrap lg:flex-grow justify-center space-x-6 ml-80">
+      <div className=" hidden md:flex w-full md:-mt-10 lg:mt-3  flex-grow lg:flex md:items-center md:w-auto">
+        <div className="text-sm md:flex md:flex-grow justify-center md:space-x-2 lg:space-x-12 ">
 
           {
             navLinks.map(nav => renderNavLinks (nav))
@@ -67,11 +67,11 @@ const Navbar = () => {
         
       </div>
         {/* menu icon */}
-          <div 
-            onClick={() => setNav (!nav)}
-            className=' cursor-pointer mr-6 pl-10 z-10 md:hidden'>
-              { nav ?  <FaTimes className='text-white' size={25}/> : <FaAlignJustify className=' text-white' size={25} />}
-          </div> 
+        <div 
+          onClick={() => setNav (!nav)}
+          className=' cursor-pointer mr-6 pl-10 z-10 md:hidden'>
+            { nav ?  <FaTimes className='text-white' size={25}/> : <FaAlignJustify className=' text-white' size={25} />}
+        </div> 
 
           { nav && (
           <ul className='flex flex-col justify-center items-center absolute top-0

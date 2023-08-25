@@ -13,8 +13,14 @@ const projectsData = [
     icon1: <FaShirtsinbulk onClick={() => handleClick('https://e-commerce-redux-project.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/reviews-restaurant-react-project')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://e-commerce-redux-project.vercel.app/')} />,
-    title1: 'Prime Number  X  table',
-    title2: 'React Form updated with hooks',
+    title1: (
+      <div>
+        <p>Prime Number  X  table</p>
+        <p> ...     ...     ...</p>
+        <div>Form updated with hooks</div>
+      </div>
+
+    ),
     devtools: 'React CSS Git'
   },
   {
@@ -22,8 +28,14 @@ const projectsData = [
     icon1: <FaShirtsinbulk onClick={() => handleClick('https://reviews-restaurant-react-project.vercel.app/')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/reviews-restaurant-react-project')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://reviews-restaurant-react-project.vercel.app/')} />,
-    title1: 'Workers Review',
-    title2: 'Restaurant menu list',
+    title1: (
+      <div>
+        <p> Workers Review</p>
+        <p> ...     ...     ...</p>
+        <p>Restaurant menu list</p>
+      </div>
+    ),
+
     devtools: 'React CSS Git'
   },
   {
@@ -32,7 +44,6 @@ const projectsData = [
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/todo-list-project')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://todo-list-project-chi.vercel.app/')} />,
     title1: 'A To-do List App',
-    title2: '',
     devtools: 'React CSS Git'
   },
   {
@@ -41,7 +52,6 @@ const projectsData = [
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/calculator1')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://calculator1-gold.vercel.app/')} />,
     title1: 'Simple Calculator',
-    title2: '',
     devtools: 'HTML CSS Javascript, Git'
   },
   {
@@ -50,7 +60,6 @@ const projectsData = [
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/Frontend-Bootstrap-Project')} />,
     icon3: <TbBrandVercel onClick={() => handleClick('  https://frontend-bootstrap-project.vercel.app/#')} />,
     title1: 'Front-end Bootstrap Project',
-    title2: '',
     devtools: 'HTML Bootstrap Git'
   },
   {
@@ -59,7 +68,6 @@ const projectsData = [
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/api-data-table-display')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://router-assignment-two.vercel.app/')} />,
     title1: 'Meme Generator',
-    title2: '',
     devtools: 'React CSS Git'
   },
 
@@ -69,7 +77,6 @@ const projectsData = [
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/social-proof-page')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://social-proof-page.vercel.app/')} />,
     title1: 'Social Proof Page',
-    title2: '',
     devtools: 'HTML CSS Git' 
   },
 
@@ -79,7 +86,6 @@ const projectsData = [
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/article-preview-design')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://article-preview-design.vercel.app/')} />,
     title1: 'Article Preview Page',
-    title2: '',
     devtools: 'HTML CSS Git'
   },
   
@@ -89,7 +95,6 @@ const projectsData = [
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/Group_Seven_Collaboration')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://group-seven-zeta.vercel.app/')} />,
     title1: 'Collaboration project',
-    title2: '',
     devtools: 'HTML CSS Git'
   },
 
@@ -98,8 +103,13 @@ const projectsData = [
     icon1: <FiCheckSquare onClick={() => handleClick('https://vercel.com/kennyoderinde/product-preview-card')} />,
     icon2: <FiGithub onClick={() => handleClick('https://github.com/kennyoderinde/product-preview-card')} />,
     icon3: <FiCheckSquare onClick={() => handleClick('https://qr-code-project-five.vercel.app/')} />,
-    title1: 'Product Preview Card',
-    title2: 'QR Code design',
+    title1: (
+      <div>
+        <p> Product Preview Card</p>
+        <p> ...     ...     ...</p>
+        <p>QR Code design</p>
+      </div>
+    ),
     devtools: 'HTML CSS Git'
   }
 ];
@@ -111,18 +121,17 @@ const handleClick = (url) => {
 const ProjectList = () => {
   
 
-  // <div className=' h-40 sm:-ml-60 sm:flex sm:flex-col sm:justify-center items-center flex flex-col justify-center items-center'>
 
 
 
     return (
         <React.Fragment>
-        <div className=' sm:relative sm:top-20 mt-20 sm:w-12/12 w-full h-screen '  >
-          <div className='grid -ml-32 sm:-ml-60'>
+        <div className='  mt-20 w-full h-screen flex flex-col mx-auto justify-start lg:-ml-0 md:-ml-20 -ml-20 '  >
+          <div className='flex flex-col mx-auto '>
             <p className=' flex items-center justify-center text-gray-200 font-montserrat font-semibold sm:text-2xl text-xl whitespace-nowrap sm:mt-20'>Other Noteworthy Projects</p>
-            <span className= 'flex flex-wrap items-center justify-center text-green-500 font-roboto font-normal sm:text-base whitespace-nowrap leading-10'>view the archive</span>
+            <span className= 'flex items-center justify-center text-green-500 font-roboto font-normal sm:text-base whitespace-nowrap leading-10'>view the archive</span>
           </div>
-          <div className=' w-full sm-60 h-60 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5 -ml-12 sm:-mt-20 sm:p-20 sm:mr-20'>
+          <div className=' w-full h-full grid gap-4 md:grid-cols-2 lg:grid-cols-4 sm:-mt-20 sm:p-20 mt-20 '>
             {projectsData.map((project) => (
               
               <div key={project.id}
@@ -130,10 +139,10 @@ const ProjectList = () => {
               >
                 
               
-                    <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat  mt-3 p-5 uppercase   ">{project.title1}</div>
+                    <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat  mt-3 p-5 uppercase w-auto h-20   ">{project.title1}</div>
                     <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat sm:-mt -mt-3 p-5 uppercase  ">{project.title2}</div>
-                    <div className=" flex items-center justify-center text-sm text-center font-light text-gray-300 font-roboto space-x-40  -mt-4 p-5  ">{project.devtools}</div>
-                    <div className=' flex items-center justify-center sm:flex sm:items-center sm:justify-center space-x-8 '>
+                    <div className=" flex items-center justify-center text-sm text-center font-light text-gray-300 font-roboto space-x-40  -mt-4 p-5 w-auto h-20  ">{project.devtools}</div>
+                    <div className=' flex items-center justify-center sm:flex sm:items-center sm:justify-center space-x-8 w-auto h-20 '>
                       <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon2}</div>
                       <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon3}</div>
                     </div>

@@ -9,17 +9,17 @@ import * as CheckoutIcon from "react-icons/fi";
 const CacCloneProject = () => {
   return (
     <div className=''>
-        <div className=" relative  sm:relative sm:p-12 -left-20 sm:left-6 top-20 sm:top-4">
+        <div className=" w-full sm:p-12 -ml-20 md:-ml-20 lg:ml-0 mt-20 md:-mt-2">
           
-          <div className='flex sm:-ml-36 sm:w-full sm:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
+          <div className='flex md:w-full md:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
             <img src={CacClone} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
           </div>
-          <div className=' h-40 sm:-ml-60 sm:flex sm:flex-col sm:justify-center  flex flex-col justify-center items-center'>
+          <div className=' h-full w-full  md:flex md:flex-col md:justify-center  flex flex-col justify-center items-center'>
               <div className='flex items-center justify-center space-x-6'>
                 <h2 className=' whitespace-nowrap font-montserrat text-lg sm:text-2xl  text-gray-400 font-normal mt-6'>CAC Web App Clone </h2>
                 <p className=' whitespace-nowrap mt-6 font-roboto text-xs sm:text-base text-green-500 font-normal '></p>
               </div>
-              <p className='flex justify-center items-center font-roboto font-normal text-xs sm:text-lg text-green-500 p-4 sm:p-25 -mt-2 sm:mt-0 shadow-lg text-center'> A web application clone of the Nigerian Corporate Affairs Commission  </p>
+              <p className=' w-auto h-auto mx-auto flex items-center font-roboto font-normal text-xs sm:text-lg text-green-500 p-4 -mt-2 sm:mt-0 shadow-lg text-center'> A web application clone of the Nigerian Corporate Affairs Commission  </p>
 
 
               <div className='flex items-center justify-center -mt-2 space-x-8  sm:mt-0'>

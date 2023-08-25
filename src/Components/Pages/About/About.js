@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import * as TagIcons from "react-icons/ai";
 import technologies from './AboutList';
-import MyPics from '../portfolioAssets/IMG_8200.jpeg'
 import "./About.css"
 
 
@@ -13,17 +12,17 @@ const About = () => {
 
   return (
     <React.Fragment>
-        <div id="aboutSection" className=' z-20 relative flex-auto bg-[#020c1b] left-38 sm:left-20 p-10 sm:p-4 sm:-top-20 -top-44 w-80 sm:w-full ' style={{ height: '150%'}}>
-            <div className=' relative p-12 -ml-28 sm:ml-28 mt-0 '>
-              <div className=' flex sm:mt-10 mt-20 '>
+        <div id="aboutSection" className=' z-20 flex-auto bg-[#020c1b] md:ml-0 lg:ml-40 md:-mt-20 md:p-12 lg:p-10 w-full md:w-full mx:auto ' style={{ height: '150%'}}>
+            <div className=' md:p-20 lg:p-10 lg:-ml-14 md:ml-6 ml-20 md:w-auto '>
+              <div className=' w-auto h-auto flex md:mt-10 mt-20 '>
                 <p className=' text-base sm:text-xl font-medium text-green-400 font-montserrat'>01.  </p>
                 <span className=' text-2xl sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3 whitespace-nowrap'>About Me</span>
                 <div className='  mt-4 ml-6 sm:ml-8 sm:mt-6 border-t border-gray-500' style={{ width: '25rem' }}> </div>
               </div>
               
-              <div className='grid space-y-6 sm:space-y-8 sm:w-60 '>
+              <div className=' md:w-full md:h-full w-full h-full  grid space-y-6 lg:space-y-8 sm:w-60  '>
 
-                <div className=' mt-6 w-0.5rem h-0.28rem sm:w-0.5rem'  style={{ }}>
+                <div className='  mt-6 md:w-full md:mx-auto h-0.28rem lg:w-full  '  style={{ }}>
                   <p className=' font-montserrat font-normal  text-sm sm:text-base text-gray-400 tracking-wide		'
                   >Hello! My name is Kehinde and I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I joined CodeLagos to learn website design — turns out hacking together a simple custom web page taught me a lot about WordPress, HTML & CSS!
                   </p>
@@ -49,9 +48,9 @@ const About = () => {
             </div>
           
 
-          <div className='flex items-center sm:ml-36 sm:space-x-44 space-x-20 -mt-4 -ml-52 flex-col sm:flex sm:flex-row '>
-            <div className=' sm:w-96 sm:h-96 -mt-0 -ml-52 sm:mt-0 sm:-ml-14'>
-              <ul className=' -space-y-3 sm:space-y-1 sm:flex sm:flex-wrap  sm:w-30' style={{}}>
+          <div className='lg:space-x-24 space-x-20 mt-4 lg:-ml-32 md:-ml-0 '>
+            <div className=' lg:w-auto sm:h-auto -mt-0 lg:ml-12 md:ml-6 ml-6'>
+              <ul className=' -space-y-3 md:space-y-1 lg:flex md:flex md:flex-wrap grid grid-cols-2' style={{}}>
                 {
                   devTools.map((item, index) => {
                     return (
@@ -73,7 +72,7 @@ const About = () => {
             </div> 
                 {/* spinning image */}
             <div class="container sm:relative absolute ">
-              <div className="box sm:-left-40 sm:-top-32 -top-[17rem] left-20 ">
+              <div className="box md:-left-24 md:-top-56 lg:mt-32 -top-[17rem] -left-6 ">
                 <div class="spin-container">
                   <div class="shape">
                     <div class="bd"></div>
@@ -81,10 +80,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
-            {/* <div className="z-40 sm:relative absolute -left-10 top-80 sm:-top-96 sm:left-80 hover:ml-8 hover:bg-green-500 hover:opacity-70 border-2 border-green-500 rounded-lg  sm:w-18 sm:h-18">
-                <img src={MyPics} alt="" className="absolute hover:bg-green-500 hover:ml-8 hover:mt-8 top-80 left-40 sm:top-0 sm:left-0 transition-all duration-1000 delay-500 rounded-lg h-auto w-40 sm:w-full max-w-xs sm:max-w-full sm:h-auto" style={{  }} />
-            </div> */}
 
           </div>      
         </div>

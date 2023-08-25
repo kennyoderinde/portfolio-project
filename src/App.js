@@ -12,7 +12,7 @@ import Experience from './Components/Pages/Experience/Experience';
 
 function App() {
   return (
-    <div className='relative sm:w-full min-h-screen bg-[#020c1b] p-0 box-border m-0 transition '>
+    <div className=' w-full min-h-screen bg-[#020c1b] p-0 box-border m-0 transition '>
     <Navbar /> 
       <section name="/" className="min-h-screen flex items-center">
         <Home />
@@ -23,10 +23,10 @@ function App() {
       <section name="experience" className="min-h-screen flex items-center">
         <Experience />
       </section>
-      <section name="work" className="min-h-screen flex items-center">
+     <section name="work" className="min-h-screen flex items-center">
         <Work />
       </section>
-      <section name="contact" className="min-h-screen flex items-end">
+       <section name="contact" className="min-h-screen flex items-end">
         <Contact />
       </section>
       

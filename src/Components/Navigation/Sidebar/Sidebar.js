@@ -74,7 +74,7 @@ const Sidebar = () => {
 
     return (
         <React.Fragment>
-        <div className=' z-30 sm:z-30 w-32 sm:w-32 fixed sm:fixed left-0 top-0 bg-[#020c1b]' style={{ height : '300vh'}}>
+        <div className=' z-30 md:z-30 w-20 lg:w-32 md:w-20 fixed sm:fixed left-0 top-0 bg-[#020c1b]' style={{ height : '300vh'}}>
           <div className='mt-60'></div>
           <ul className='' >
           {
