@@ -39,7 +39,7 @@ module.exports = {
 
       spacing: {
         '41': '9.5rem', // Replace with your desired value
-        '17': '17rem', // Replace with your desired value
+        '18': '18rem', // Replace with your desired value
         '21': '21rem', // Replace with your desired value
         '25': '25rem', // Replace with your desired value
 

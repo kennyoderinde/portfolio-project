@@ -9,37 +9,45 @@ const technologies = [
         title: 'HTML & CSS',
         
     },
+    
     {
         id:2,
         icon: < TagIcon.AiOutlineTag />,
         title: 'Javascript',
     
     },
+
     {
         id:3,
+        icon: < TagIcon.AiOutlineTag />,
+        title: 'TypeScript',
+    
+    },
+    {
+        id:4,
         icon: < TagIcon.AiOutlineTag />,
         title: 'React',
     
     },
     
     {
-        id:4,
+        id:5,
         icon: < TagIcon.AiOutlineTag />,
         title: 'Git & Github',
     },
     {
-        id:5,
+        id:6,
         icon: < TagIcon.AiOutlineTag />,
         title: 'Tailwind CSS',
     },
     
     {
-        id:6,
+        id:7,
         icon: < TagIcon.AiOutlineTag />,
         title: 'Bootstrap',
     },
     {
-        id:7,
+        id:8,
         icon: < TagIcon.AiOutlineTag />,
         title: 'WordPress',
     },

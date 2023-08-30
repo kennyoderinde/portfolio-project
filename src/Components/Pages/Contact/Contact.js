@@ -68,7 +68,7 @@ const Contact = () => {
         </div>
 
         <footer className=" z-20 flex items-center flex-wrap backdrop-blur-lg justify-center bg-[#020c1b] p-4 md:space-x-36 w-full md:h-20 h-16 shadow-2xl shadow-green-500 md:ml-0 ml-0 md:mt-20 -mt-[33rem] md:mb-24 "  >
-          <p className=' text-green-500 font-poppins font-normal text-sm text-center items-center'>© kennyoderyndeh. All rights reserved</p>
+          <p className=' text-green-500 font-poppins font-normal text-xs text-center items-center'>© kennyoderyndeh 2023. All rights reserved</p>
         </footer>
       </div>
 
