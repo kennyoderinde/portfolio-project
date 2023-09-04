@@ -72,7 +72,7 @@ const About = () => {
             </div> 
                 {/* spinning image */}
             <div class="container sm:relative absolute ">
-              <div className="box md:-left-24 md:-top-56 lg:mt-32 -top-[17rem] -left-16 ">
+              <div className="box md:-left-24 md:-top-56 lg:mt-32 -top-48 -left-16 ">
                 <div class="spin-container">
                   <div class="shape">
                     <div class="bd"></div>
