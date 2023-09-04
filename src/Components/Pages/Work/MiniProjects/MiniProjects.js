@@ -126,31 +126,31 @@ const ProjectList = () => {
 
     return (
         <React.Fragment>
-        <div className='  mt-20 w-full h-screen flex flex-col mx-auto justify-start lg:-ml-0 md:-ml-20 -ml-20 '  >
-          <div className='flex flex-col mx-auto '>
-            <p className=' flex items-center justify-center text-gray-200 font-montserrat font-semibold sm:text-2xl text-xl whitespace-nowrap sm:mt-20'>Other Noteworthy Projects</p>
-            <span className= 'flex items-center justify-center text-green-500 font-roboto font-normal sm:text-base whitespace-nowrap leading-10'>view the archive</span>
-          </div>
-          <div className=' w-full h-full grid gap-4 md:grid-cols-2 lg:grid-cols-4 sm:-mt-20 sm:p-20 mt-20 '>
-            {projectsData.map((project) => (
-              
-              <div key={project.id}
-                  className=' sm:h-72 border-2  h-60 inline-block card bg-gray-700  mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4 shadow-inner shadow-green-500 rounded-md -space-y-4   '
-              >
+          <div className='  mt-20 w-full h-screen flex flex-col mx-auto justify-start lg:-ml-0 md:-ml-20 -ml-20 '  >
+            <div className='flex flex-col mx-auto '>
+              <p className=' flex items-center justify-center text-gray-200 font-montserrat font-semibold sm:text-2xl text-xl whitespace-nowrap sm:mt-20'>Other Noteworthy Projects</p>
+              <span className= 'flex items-center justify-center text-green-500 font-roboto font-normal sm:text-base whitespace-nowrap leading-10'>view the archive</span>
+            </div>
+            <div className=' w-full h-full grid gap-4 md:grid-cols-2 lg:grid-cols-4 sm:-mt-20 sm:p-20 mt-20 '>
+              {projectsData.map((project) => (
                 
-              
-                    <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat  mt-3 p-5 uppercase w-auto h-20   ">{project.title1}</div>
-                    <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat sm:-mt -mt-3 p-5 uppercase  ">{project.title2}</div>
-                    <div className=" flex items-center justify-center text-sm text-center font-light text-gray-300 font-roboto space-x-40  -mt-4 p-5 w-auto h-20  ">{project.devtools}</div>
-                    <div className=' flex items-center justify-center sm:flex sm:items-center sm:justify-center space-x-8 w-auto h-20 '>
-                      <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon2}</div>
-                      <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon3}</div>
-                    </div>
+                <div key={project.id}
+                    className=' sm:h-72 border-2  h-60 inline-block card bg-gray-700  mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4 shadow-inner shadow-green-500 rounded-md -space-y-4   '
+                >
+                  
                 
-                </div>
-            ))}
+                      <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat  mt-3 p-5 uppercase w-auto h-20   ">{project.title1}</div>
+                      <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat sm:-mt -mt-3 p-5 uppercase  ">{project.title2}</div>
+                      <div className=" flex items-center justify-center text-sm text-center font-light text-gray-300 font-roboto space-x-40  -mt-4 p-5 w-auto h-20  ">{project.devtools}</div>
+                      <div className=' flex items-center justify-center sm:flex sm:items-center sm:justify-center space-x-8 w-auto h-20 '>
+                        <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon2}</div>
+                        <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon3}</div>
+                      </div>
+                  
+                  </div>
+              ))}
+            </div>
           </div>
-        </div>
         </React.Fragment>
       )
     }
