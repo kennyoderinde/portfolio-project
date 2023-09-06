@@ -8,12 +8,23 @@ import Work from "./Components/Pages/Work/Work"
 import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
 import Experience from './Components/Pages/Experience/Experience';
+import { motion } from "framer-motion";
+
 
 
 function App() {
   return (
-    <div className=' w-full min-h-screen bg-[#020c1b] p-0 box-border m-0 transition '>
+    <div className=' w-full min-h-screen bg-[#020c1b] p-0 box-border m-0 '>
     <Navbar /> 
+
+    <motion.section
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: 100 }}
+        transition={{ duration: 0.5 }}
+        name="/"
+        className="min-h-screen flex flex-col"
+      >
       <section name="/" className="min-h-screen flex items-center">
         <Home />
       </section>
@@ -30,6 +41,7 @@ function App() {
         <Contact />
       </section>
       
+      </motion.section>
       <Sidebar />
 
     </div>
