@@ -1,8 +1,7 @@
 import React from 'react'
 import { AiOutlineRight } from "react-icons/ai";
 
-// import About from '../About/About'
-// import Experience from '../Experience/Experience'
+
 
 const Home = () => {
   return (
@@ -13,7 +12,7 @@ const Home = () => {
           <h1 className='  font-montserrat font-bold whitespace-nowrap text-3xl lg:text-7xl md:text-5xl text-slate-300 '>Kehinde Oderinde.</h1>
           <h1 className='  font-montserrat font-bold text-3xl leading-tight lg:text-7xl md:text-5xl text-gray-400 '>I build things for the web.</h1>
 
-          <p className='   lg:pr-32 md:pr-6 pr-0 font-montserrat font-medium text-base md:text-base text-gray-400 whitespace-normal tracking-wider' style={{ width: '85%', height: '25%'}}>
+          <p className='   lg:pr-32 md:pr-6 pr-0 font-montserrat font-medium text-base text-gray-400 whitespace-normal md:tracking-wider leading-relaxed'>
             I’m a software developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, learners centered solution,  
           <a href='https://citrone-redesign-group-a.vercel.app/dashboard#' className=' text-xs sm:text-base text-green-400 font-montserrat ml-2'>Citrone.</a>
           </p>
