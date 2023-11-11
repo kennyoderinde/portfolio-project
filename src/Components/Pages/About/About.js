@@ -28,13 +28,13 @@ const About = () => {
                   </p>
                 </div>
 
-                <div className='-mt-10 w-0.5rem h-0.28rem sm:w-0.5rem'  style={{ }}>
+                <div className='-mt-10 w-0.5rem h-0.28rem sm:w-0.5rem' >
                   <p className='   font-montserrat font-normal text-sm sm:text-base text-gray-400 tracking-wide ' >
                   Fast-forward to today, and I’ve had the privilege of working mostly as a freelancer and learning at technology hubs; working on both tutors and student-led design projects. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
                   </p>
                 </div>
 
-                <div className='-mt-10 w-0.5rem h-0.28rem sm:w-0.5rem'  style={{ }}>
+                <div className='-mt-10 w-0.5rem h-0.28rem sm:w-0.5rem' >
                   <p className='  font-montserrat font-normal text-sm sm:text-base text-gray-400 whitespace-normal tracking-wide	'>
                   I also recently take time to guide and tutor newbies on the rudiments and also how to get started in tech. I also take time to expose them to the basics skills HTML, CSS, Wordpress, they need to build a simple personalized web app.
                   </p>

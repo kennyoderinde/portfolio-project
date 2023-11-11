@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import CitronePic from '../portfolioAssets/citrone-project-pic1.png';
+import KundaAdmin from '../portfolioAssets/kunda-admin dashboard.PNG';
 
 import * as GithubIcons from "react-icons/fi";
 import * as CheckoutIcon from "react-icons/fi";
@@ -15,7 +15,7 @@ const CitronePage = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="w-full sm:p-12 -ml-20 md:-ml-20 lg:ml-0 mt-20 md:-mt-2">
-        {/* <div className='flex mt-20 md:mt-20 '>
+        <div className='flex mt-20 md:mt-20 '>
           <motion.p
             className='text-base sm:text-xl font-medium text-green-400 font-montserrat'
           >
@@ -29,10 +29,10 @@ const CitronePage = () => {
           <motion.div
             className='ml-8 mt-6 border-t border-gray-500 lg:w-64 md:w-64 w-20'
           ></motion.div>
-        </div> */}
+        </div>
         <div className='flex md:w-full md:flex sm:items-center md:justify-center items-center justify-center mt-8'>
           <motion.img
-            src={CitronePic}
+            src={KundaAdmin}
             alt='citrone-page'
             className='opacity-80 shadow-lg w-66'
             initial={{ opacity: 0, scale: 0.9 }}
@@ -48,7 +48,7 @@ const CitronePage = () => {
             transition={{ duration: 0.5 }}
           >
             <h2 className='whitespace-nowrap font-montserrat text-lg sm:text-2xl text-gray-400 font-normal'>
-              Citrone Redesign
+              Admin Dashboard
             </h2>
             <p className='whitespace-nowrap mt-6 font-montserrat text-xs sm:text-base text-gray-400 font-normal'>
               Featured Project
@@ -60,7 +60,7 @@ const CitronePage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            A learning experience web application where educators can engage their learners
+            An admin management system built designed to automate various administrative tasks within the Kunda Kids App
           </motion.p>
           <motion.div
             className='flex items-center justify-center -mt-2 space-x-8  sm:mt-0'
