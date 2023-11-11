@@ -69,12 +69,12 @@ const CitronePage = () => {
             transition={{ duration: 0.5 }}
           >
             <span className='cursor-pointer text-lg sm:text-2xl font-medium hover:text-green-500 text-gray-200'>
-              <a href='https://github.com/ayomikun2018/citrone-redesign-groupA' target="_blank" rel="noopener noreferrer">
+              <a href='https://github.com/kennyoderinde/admin-kunda-kids.git' target="_blank" rel="noopener noreferrer">
                 <GithubIcons.FiGithub />
               </a>
             </span>
             <span className='text-lg sm:text-2xl font-medium hover:text-green-500 text-gray-200'>
-              <a href='https://citrone-redesign-group-a.vercel.app/' target="_blank" rel="noopener noreferrer">
+              <a href='https://admin-kunda-kids-project.vercel.app/' target="_blank" rel="noopener noreferrer">
                 <CheckoutIcon.FiCheckSquare />
               </a>
             </span>
