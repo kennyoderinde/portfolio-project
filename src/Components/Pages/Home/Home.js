@@ -14,7 +14,7 @@ const Home = () => {
 
           <p className='   lg:pr-32 md:pr-6 pr-0 font-montserrat font-medium text-base text-gray-400 whitespace-normal md:tracking-wider leading-relaxed'>
             I’m a software developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, learners centered solutions,  
-          <a href='https://citrone-redesign-group-a.vercel.app/dashboard#' className=' text-xs sm:text-base text-green-400 font-montserrat ml-2'> Kunda-Kids Admin Dashboard, Citrone.</a>
+          <a href='https://admin-kunda-kids-project.vercel.app' className=' text-xs sm:text-base text-green-400 font-montserrat ml-2'> Kunda-Kids Admin Dashboard.</a>
           </p>
           <a href='#workSection'> <button type='button' className=' group w-52 md:w-64 px-4 py-4 sm:px-7  md:py-5 rounded-lg mb-36 md:mb-40 border border-green-400 
           flex items-center  mt-8 text-green-400 text-xs sm:text-base font-roboto font-normal whitespace-nowrap '> 
