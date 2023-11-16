@@ -120,9 +120,12 @@ const handleClick = (url) => {
 
 const ProjectList = () => {
   
+  const [showAllProjects, setShowAllProjects] = useState(false);
+  const visibleProjects = showAllProjects ? projectsData : projectsData.slice(0, 4);
 
-
-
+  const toggleProjectsVisibility = () => {
+    setShowAllProjects(!showAllProjects);
+  };
 
     return (
         <React.Fragment>
@@ -132,8 +135,7 @@ const ProjectList = () => {
               <span className= 'flex items-center justify-center text-green-500 font-roboto font-normal sm:text-base whitespace-nowrap leading-10'>view the archive</span>
             </div>
             <div className=' w-full h-full grid gap-4 md:grid-cols-2 lg:grid-cols-4 sm:-mt-20 sm:p-20 mt-20 '>
-              {projectsData.map((project) => (
-                
+              {visibleProjects.map((project) => (                
                 <div key={project.id}
                     className=' sm:h-72 border-2  h-60 inline-block card bg-gray-700  mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4 shadow-inner shadow-green-500 rounded-md -space-y-4   '
                 >
@@ -150,6 +152,28 @@ const ProjectList = () => {
                   </div>
               ))}
             </div>
+
+            {!showAllProjects ? (
+            <div className='flex items-center justify-center lg:-mt-80 md:-mt-10 '>
+              <button
+                className='text-green-500 font-roboto font-normal text-base underline cursor-pointer'
+                onClick={() => setShowAllProjects(true)}
+              >
+                View More
+              </button>
+            </div>
+
+            ) : (
+            <div className='flex items-center justify-center lg:ml-60 lg:mt-0 md:mt-[105%]'>
+              <button
+                className='text-green-500 font-roboto font-normal text-base underline cursor-pointer'
+                onClick={toggleProjectsVisibility}
+              >
+                View Less
+              </button>
+            </div>
+
+          )}
           </div>
         </React.Fragment>
       )

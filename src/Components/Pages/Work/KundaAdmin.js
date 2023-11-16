@@ -51,7 +51,7 @@ const CitronePage = () => {
               Admin Dashboard
             </h2>
             <p className='whitespace-nowrap mt-6 font-montserrat text-xs sm:text-base text-gray-400 font-normal'>
-              Featured Project
+              Featured Project   ...best viewed on desktop screen
             </p>
           </motion.div>
           <motion.p
