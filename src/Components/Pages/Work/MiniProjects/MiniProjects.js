@@ -152,7 +152,7 @@ const ProjectList = () => {
             </div>
 
             {!showAllProjects ? (
-            <div className=' relative flex items-center justify-center lg:-top-80 md:-mt-10 sm:top-[180%]'>
+            <div className='flex items-center justify-center lg:-mt-80 md:-mt-10 sm:mt-[180%]'>
               <button
                 className='text-green-500 font-roboto font-normal text-base underline cursor-pointer'
                 onClick={() => setShowAllProjects(true)}
@@ -160,8 +160,9 @@ const ProjectList = () => {
                 View More
               </button>
             </div>
+
             ) : (
-            <div className=' absolute flex items-center justify-center lg:left-60 lg:top-0 md:top-[55%] sm:mt-[700%]'>
+            <div className='flex items-center justify-center lg:ml-60 lg:mt-0 md:mt-[105%] sm:mt-[700%]'>
               <button
                 className='text-green-500 font-roboto font-normal text-base underline cursor-pointer'
                 onClick={toggleProjectsVisibility}

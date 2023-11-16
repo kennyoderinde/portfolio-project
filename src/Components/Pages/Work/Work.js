@@ -15,7 +15,6 @@ const WorkPage = () => {
 
     <div id="workSection" className=' bg-[#020c1b] z-20 flex flex-col mx-auto w-full h-hull justify-center ml-44 ' style={{ height: '220%'}}>
       <KundaAdmin />
-      
       <HomezPage />
       <Citrone />
        <CacClone />
