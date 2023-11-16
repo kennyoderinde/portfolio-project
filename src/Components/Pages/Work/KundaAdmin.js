@@ -60,7 +60,7 @@ const CitronePage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            An admin management system built designed to automate various administrative tasks within the Kunda Kids App
+            An admin management system designed to automate various administrative tasks within the Kunda Kids App
           </motion.p>
           <motion.div
             className='flex items-center justify-center -mt-2 space-x-8  sm:mt-0'

@@ -139,22 +139,20 @@ const ProjectList = () => {
                 <div key={project.id}
                     className=' sm:h-72 border-2  h-60 inline-block card bg-gray-700  mr-6 mt-6 sm:mt-6 transition-all duration-1000 delay-200 hover:mt-4 hover:mr-4 shadow-inner shadow-green-500 rounded-md -space-y-4   '
                 >
-                  
-                
-                      <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat  mt-3 p-5 uppercase w-auto h-20   ">{project.title1}</div>
-                      <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat sm:-mt -mt-3 p-5 uppercase  ">{project.title2}</div>
-                      <div className=" flex items-center justify-center text-sm text-center font-light text-gray-300 font-roboto space-x-40  -mt-4 p-5 w-auto h-20  ">{project.devtools}</div>
-                      <div className=' flex items-center justify-center sm:flex sm:items-center sm:justify-center space-x-8 w-auto h-20 '>
-                        <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon2}</div>
-                        <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon3}</div>
-                      </div>
+                    <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat  mt-3 p-5 uppercase w-auto h-20   ">{project.title1}</div>
+                    <div className=" flex items-center justify-center text-sm text-center font-medium text-gray-100 font-montserrat sm:-mt -mt-3 p-5 uppercase  ">{project.title2}</div>
+                    <div className=" flex items-center justify-center text-sm text-center font-light text-gray-300 font-roboto space-x-40  -mt-4 p-5 w-auto h-20  ">{project.devtools}</div>
+                    <div className=' flex items-center justify-center sm:flex sm:items-center sm:justify-center space-x-8 w-auto h-20 '>
+                      <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon2}</div>
+                      <div className=" w-10 h-8 bg-slate-800 rounded-lg   text-slate-100  hover:text-green-500 sm:flex sm:items-center sm:justify-center flex items-center justify-center text-base text-center ">{project.icon3}</div>
+                    </div>
                   
                   </div>
               ))}
             </div>
 
             {!showAllProjects ? (
-            <div className='flex items-center justify-center lg:-mt-80 md:-mt-10 '>
+            <div className='flex items-center justify-center lg:-mt-80 md:-mt-10 sm:mt-[180%]  '>
               <button
                 className='text-green-500 font-roboto font-normal text-base underline cursor-pointer'
                 onClick={() => setShowAllProjects(true)}
@@ -164,7 +162,7 @@ const ProjectList = () => {
             </div>
 
             ) : (
-            <div className='flex items-center justify-center lg:ml-60 lg:mt-0 md:mt-[105%]'>
+            <div className='flex items-center justify-center lg:ml-60 lg:mt-0 md:mt-[105%] sm:mt-[700%]'>
               <button
                 className='text-green-500 font-roboto font-normal text-base underline cursor-pointer'
                 onClick={toggleProjectsVisibility}
