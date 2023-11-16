@@ -44,7 +44,7 @@ const CitronePage = () => {
         </div>
         <div className='h-full w-full md:flex md:flex-col md:justify-center items-center flex flex-col justify-center'>
           <motion.div
-            className='flex items-center justify-center space-x-6 md:mt-5'
+            className='flex flex-col items-center justify-center space-x-6 md:mt-5'
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}

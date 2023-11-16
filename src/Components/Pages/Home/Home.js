@@ -19,7 +19,7 @@ const Home = () => {
           <a href='#workSection'> <button type='button' className=' group w-52 md:w-64 px-4 py-4 sm:px-7  md:py-5 rounded-lg mb-36 md:mb-40 border border-green-400 
           flex items-center  mt-8 text-green-400 text-xs sm:text-base font-roboto font-normal whitespace-nowrap '> 
             Checkout my projects 
-            <span className=' group-hover:rotate-90 duration-300 '>
+            <span className=' group-hover:rotate-90 duration-300'>
               < AiOutlineRight size={25} className=" ml-2"/> 
             </span> 
           </button></a>
