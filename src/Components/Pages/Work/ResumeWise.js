@@ -11,8 +11,8 @@ const ResumeWise= () => {
     <div className=''>
         <div className=" w-full sm:p-12 -ml-20 md:-ml-20 mt-20 lg:ml-0 md:-mt-2">
           
-        <div className='flex md:w-full md:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
-          <a href='https://resumewise1.vercel.app/'>
+        <div className=''>
+          <a href='https://resumewise1.vercel.app/' className='flex md:w-full md:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
             <img src={CacClone} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
           </a>
           </div>

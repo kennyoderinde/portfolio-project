@@ -14,8 +14,8 @@ const CacClone = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="w-full sm:p-12 -ml-20 md:-ml-20 lg:ml-0 mt-20 md:-mt-2">
-        <div className='flex md:w-full md:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
-          <a href='https://golden-city-experience-test.vercel.app/'>
+        <div className=''>
+          <a href='https://golden-city-experience-test.vercel.app/' className='flex md:w-full md:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
           <motion.img
             src={GoldenCityPic}
             alt='citrone-page'

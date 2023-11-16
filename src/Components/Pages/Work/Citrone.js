@@ -15,23 +15,9 @@ const CitronePage = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="w-full sm:p-12 -ml-20 md:-ml-20 lg:ml-0 mt-20 md:-mt-2">
-        {/* <div className='flex mt-20 md:mt-20 '>
-          <motion.p
-            className='text-base sm:text-xl font-medium text-green-400 font-montserrat'
-          >
-            03.
-          </motion.p>
-          <motion.span
-            className='whitespace-nowrap text-lg sm:text-2xl text-gray-300 font-semibold font-montserrat ml-3'
-          >
-            Some Things I’ve Built
-          </motion.span>
-          <motion.div
-            className='ml-8 mt-6 border-t border-gray-500 lg:w-64 md:w-64 w-20'
-          ></motion.div>
-        </div> */}
-        <div className='flex md:w-full md:flex sm:items-center md:justify-center items-center justify-center mt-8'>
-          <a href='https://citrone-redesign-group-a.vercel.app/'>
+       
+        <div className=''>
+          <a href='https://citrone-redesign-group-a.vercel.app/' className='flex md:w-full md:flex sm:items-center md:justify-center items-center justify-center mt-8'>
           <motion.img
             src={CitronePic}
             alt='citrone-page'

@@ -11,8 +11,10 @@ const CacCloneProject = () => {
     <div className=''>
         <div className=" w-full sm:p-12 -ml-20 md:-ml-20 lg:ml-0 mt-20 md:-mt-2">
           
-          <div className='flex md:w-full md:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
-            <img src={CacClone} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
+          <div className=''>
+            <a href='https://growersedge.vercel.app/' className='flex md:w-full md:flex sm:items-center sm:justify-center items-center justify-center mt-8'>
+              <img src={CacClone} alt='citrone-page' className=' opacity-80 shadow-lg w-66' style={{ }}/>
+            </a>
           </div>
           <div className=' h-full w-full  md:flex md:flex-col md:justify-center  flex flex-col justify-center items-center'>
               <div className='flex items-center justify-center space-x-6'>

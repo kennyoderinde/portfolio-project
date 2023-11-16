@@ -30,8 +30,8 @@ const CitronePage = () => {
             className='ml-8 mt-6 border-t border-gray-500 lg:w-64 md:w-64 w-20'
           ></motion.div>
         </div>
-        <div className='flex md:w-full md:flex sm:items-center md:justify-center items-center justify-center mt-8'>
-          <a href="https://admin-kunda-kids-project.vercel.app/">
+        <div className=''>
+          <a href="https://admin-kunda-kids-project.vercel.app/" className='flex md:w-full md:flex sm:items-center md:justify-center items-center justify-center mt-8'>
           <motion.img
             src={KundaAdmin}
             alt='citrone-page'
