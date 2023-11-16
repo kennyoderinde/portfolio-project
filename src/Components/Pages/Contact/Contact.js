@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div id="contactSection" className=' lg:mt-64 md:mt-[41rem] mt-[134rem] w-full h-screen md:ml-0 ml-24'>
       <div className=' flex flex-col sm:justify-center'>
-        <div className=' text-white md:mt-32 mt-60 text-center '>
+        <div className=' text-white md:mt-28 mt-20 text-center '>
           <p className=' text-3xl font-semibold font-montserrat leading-loose'>Contact:</p>
 
           <div className='flex sm:justify-center sm:flex-row flex-col place-items-center sm:space-x-6 space-x-0 space-y-5 sm:space-y-0 sm:mb-8 mb-8'>

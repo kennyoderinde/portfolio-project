@@ -31,6 +31,7 @@ const CitronePage = () => {
           ></motion.div>
         </div>
         <div className='flex md:w-full md:flex sm:items-center md:justify-center items-center justify-center mt-8'>
+          <a href="https://admin-kunda-kids-project.vercel.app/">
           <motion.img
             src={KundaAdmin}
             alt='citrone-page'
@@ -39,6 +40,7 @@ const CitronePage = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           />
+          </a>
         </div>
         <div className='h-full w-full md:flex md:flex-col md:justify-center items-center flex flex-col justify-center'>
           <motion.div
