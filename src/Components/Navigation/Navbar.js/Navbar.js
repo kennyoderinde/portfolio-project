@@ -45,7 +45,7 @@ const Navbar = () => {
       <div className="hidden md:flex w-full md:-mt-10 lg:mt-3  flex-grow lg:flex md:items-center md:w-auto">
         <motion.ul className='text-sm md:flex md:flex-grow justify-center md:space-x-2 lg:space-x-12' initial={false} animate={nav ? "open" : "closed"}>
           {navLinks.map(nav => renderNavLinks(nav))}
-          <a href='https://drive.google.com/file/d/1LvSIOP3kuQtKDW8ZjFCnW_2_k5moPcNl/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='top-0 relative text-base font-montserrat font-medium p-2 flex items-center justify-between hover:ml-8 hover:text-white hover:bg-green-500 border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
+          <a href='https://drive.google.com/file/d/1zsHEuDkrxv5jRJy89G75fbpf0Ur7JNr4/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='top-0 relative text-base font-montserrat font-medium p-2 flex items-center justify-between hover:ml-8 hover:text-white hover:bg-green-500 border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
             <span className='hover:text-white text-green-400'>Resume</span>
           </a>
         </motion.ul>
@@ -57,7 +57,7 @@ const Navbar = () => {
       {nav && (
         <motion.ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-700 text-white' variants={menuVariants}>
           {navLinks.map(nav => renderNavLinks(nav))}
-          <a href='https://drive.google.com/file/d/1LvSIOP3kuQtKDW8ZjFCnW_2_k5moPcNl/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='top-0 relative text-base font-montserrat font-medium p-2 flex items-center justify-between mt-4 hover:ml-8 hover:text-white hover:bg-green-500 border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
+          <a href='https://drive.google.com/file/d/1zsHEuDkrxv5jRJy89G75fbpf0Ur7JNr4/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='top-0 relative text-base font-montserrat font-medium p-2 flex items-center justify-between mt-4 hover:ml-8 hover:text-white hover:bg-green-500 border border-green-500 rounded-lg overflow-hidden hover:skew-x-6'>
             <span className='hover:text-white text-green-400'>Resume</span>
           </a>
         </motion.ul>

@@ -9,7 +9,7 @@ const Home = () => {
       <div id="homeSection" className=' flex-auto bg-[#020c1b] z-20 lg:ml-38 md:ml-20 md:-mt-20 py-4 px-5 md:px-20 md:py-20 w-full md:w-full ' style={{ height: '150%'}}>
         <div className='  mt-16 md:mt-28  px-1 flex flex-col lg:space-y-14  md:space-y-7 space-y-7 md:max-w-screen md:ml-0 ml-16'>
           <p className='  font-roboto font-medium text-lg md:text-xl text-green-400'>Hi, my name is</p>
-          <h1 className='  font-montserrat font-bold whitespace-nowrap text-3xl lg:text-7xl md:text-5xl text-slate-300 '>Daniel Oderinde.</h1>
+          <h1 className='  font-montserrat font-bold whitespace-nowrap text-3xl lg:text-7xl md:text-5xl text-slate-300 '>Kehinde Oderinde.</h1>
           <h1 className='  font-montserrat font-bold text-3xl leading-tight lg:text-7xl md:text-5xl text-gray-400 '>I build things for the web.</h1>
 
           <p className='   lg:pr-32 md:pr-6 pr-0 font-montserrat font-medium text-base text-gray-400 whitespace-normal md:tracking-wider leading-relaxed'>
